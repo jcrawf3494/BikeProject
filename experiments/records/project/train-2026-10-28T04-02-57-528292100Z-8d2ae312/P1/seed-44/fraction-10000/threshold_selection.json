@@ -1,0 +1,30 @@
+{
+  "method": "Exact F0.5 threshold curve on reserved training calibration rows",
+  "test_used": false,
+  "default_threshold_metrics": {
+    "evaluation_rows": 80790,
+    "tp": 9610,
+    "customer_recall": 0.7718255561802265,
+    "accuracy": 0.8508602549820522,
+    "customer_f0_5": 0.5477468850814495,
+    "fp": 9208,
+    "fn": 2841,
+    "tn": 59131,
+    "area_under_pr": 0.7253573353753557,
+    "customer_precision": 0.5106812626208949
+  },
+  "threshold": 0.8819888623835037,
+  "selected_threshold_metrics": {
+    "evaluation_rows": 80790,
+    "tp": 5994,
+    "customer_recall": 0.4814071158943057,
+    "accuracy": 0.9041713083302388,
+    "customer_f0_5": 0.7210046431063102,
+    "fp": 1285,
+    "fn": 6457,
+    "tn": 67054,
+    "area_under_pr": 0.7253582017773992,
+    "customer_precision": 0.8234647616430828
+  },
+  "rows": 80790
+}

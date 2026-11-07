@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve historical scientific source hashes, including original line endings.
+*.py -text whitespace=cr-at-eol
+*.scala -text whitespace=cr-at-eol
+validation/reconstruction_10354_frozen_settings.json -text whitespace=cr-at-eol

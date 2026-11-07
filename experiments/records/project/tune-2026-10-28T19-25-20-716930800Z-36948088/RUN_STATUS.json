@@ -1,0 +1,17 @@
+{
+  "run_id": "tune-2026-10-28T19-25-20-716930800Z-36948088",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "standard",
+  "aggregate_record_directory": "experiments/records/project/tune-2026-10-28T19-25-20-716930800Z-36948088",
+  "aggregate_record_count": 7,
+  "measured_result_count": 1,
+  "notes": ""
+}

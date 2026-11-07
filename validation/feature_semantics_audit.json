@@ -1,0 +1,117 @@
+{
+  "audit_scope": "Independent feature semantics and preservation checks; no model selection using test outcomes",
+  "splits": [
+    {
+      "split": "train",
+      "rows": 536406,
+      "customer_rows": 82490,
+      "ids_labels_and_split_preserved": true,
+      "date_hour_month_consistent": true,
+      "trip_features_match_original_csv_by_id": true,
+      "stored_timestamp_minus_original_local_clock_hours": {
+        "4.0": 378185,
+        "5.0": 158221
+      },
+      "weekday_encoding": [
+        {
+          "actual_weekday_monday_zero": 0,
+          "saved_day_of_week": 2
+        },
+        {
+          "actual_weekday_monday_zero": 1,
+          "saved_day_of_week": 3
+        },
+        {
+          "actual_weekday_monday_zero": 2,
+          "saved_day_of_week": 4
+        },
+        {
+          "actual_weekday_monday_zero": 3,
+          "saved_day_of_week": 5
+        },
+        {
+          "actual_weekday_monday_zero": 4,
+          "saved_day_of_week": 6
+        },
+        {
+          "actual_weekday_monday_zero": 5,
+          "saved_day_of_week": 7
+        },
+        {
+          "actual_weekday_monday_zero": 6,
+          "saved_day_of_week": 1
+        }
+      ],
+      "weekend_round_trip_business_day_and_inter_cluster_flags_consistent": true,
+      "all_weather_values_match_independent_city_date_join": true,
+      "observed_holiday_definition_differences": [],
+      "duration_seconds_quantiles": {
+        "0": 60.0,
+        "0.25": 344.0,
+        "0.5": 517.0,
+        "0.75": 755.0,
+        "0.99": 12939.899999999907,
+        "1": 17270400.0
+      },
+      "start_clusters": 5,
+      "end_clusters": 5
+    },
+    {
+      "split": "test",
+      "rows": 133553,
+      "customer_rows": 20723,
+      "ids_labels_and_split_preserved": true,
+      "date_hour_month_consistent": true,
+      "trip_features_match_original_csv_by_id": true,
+      "stored_timestamp_minus_original_local_clock_hours": {
+        "4.0": 94221,
+        "5.0": 39332
+      },
+      "weekday_encoding": [
+        {
+          "actual_weekday_monday_zero": 0,
+          "saved_day_of_week": 2
+        },
+        {
+          "actual_weekday_monday_zero": 1,
+          "saved_day_of_week": 3
+        },
+        {
+          "actual_weekday_monday_zero": 2,
+          "saved_day_of_week": 4
+        },
+        {
+          "actual_weekday_monday_zero": 3,
+          "saved_day_of_week": 5
+        },
+        {
+          "actual_weekday_monday_zero": 4,
+          "saved_day_of_week": 6
+        },
+        {
+          "actual_weekday_monday_zero": 5,
+          "saved_day_of_week": 7
+        },
+        {
+          "actual_weekday_monday_zero": 6,
+          "saved_day_of_week": 1
+        }
+      ],
+      "weekend_round_trip_business_day_and_inter_cluster_flags_consistent": true,
+      "all_weather_values_match_independent_city_date_join": true,
+      "observed_holiday_definition_differences": [],
+      "duration_seconds_quantiles": {
+        "0": 60.0,
+        "0.25": 344.0,
+        "0.5": 517.0,
+        "0.75": 756.0,
+        "0.99": 13028.920000000042,
+        "1": 2137000.0
+      },
+      "start_clusters": 5,
+      "end_clusters": 5
+    }
+  ],
+  "trace_weather_source_rows": 143,
+  "note": "Time features are verified against original local-clock CSV values. Stored timestamps have a legacy timezone encoding and are excluded from predictors. Holiday differences are reported for review; original feature values are preserved."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.7202386861675333,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "maxIter": "80",
+      "maxDepth": "5",
+      "stepSize": "0.1",
+      "minInstancesPerNode": "20"
+    },
+    "candidate": 0
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.7204072916787476,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "maxIter": "160",
+      "maxDepth": "5",
+      "stepSize": "0.05",
+      "minInstancesPerNode": "20"
+    },
+    "candidate": 1
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.7227485855627448,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "maxIter": "160",
+      "maxDepth": "7",
+      "stepSize": "0.05",
+      "minInstancesPerNode": "20"
+    },
+    "candidate": 2
+  },
+  {
+    "selected": true,
+    "mean_customer_f0_5": 0.722840799325991,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "maxIter": "240",
+      "maxDepth": "7",
+      "stepSize": "0.03",
+      "minInstancesPerNode": "40"
+    },
+    "candidate": 3
+  }
+]

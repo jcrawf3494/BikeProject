@@ -1,0 +1,19 @@
+{
+  "run_id": "smoke-2026-10-27T20-43-22-812302200Z-6eaf5bbd",
+  "source_scope": "technical/improved-validation",
+  "status": "completed",
+  "kind": "technical_verification",
+  "models": [
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/technical/improved-validation/smoke-2026-10-27T20-43-22-812302200Z-6eaf5bbd",
+  "aggregate_record_count": 8,
+  "measured_result_count": 3,
+  "notes": ""
+}

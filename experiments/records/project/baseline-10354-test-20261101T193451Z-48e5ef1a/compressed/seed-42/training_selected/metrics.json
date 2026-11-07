@@ -1,0 +1,29 @@
+{
+  "customer_f0_5": 0.822194591234069,
+  "customer_precision": 0.9089347079037801,
+  "customer_recall": 0.595050618672666,
+  "accuracy": 0.8005794302269436,
+  "area_under_pr": 0.8917793034266386,
+  "tp": 529,
+  "fp": 53,
+  "tn": 1129,
+  "fn": 360,
+  "evaluation_rows": 2071,
+  "decision_threshold": 0.7149090766906738,
+  "training_rows": 8283,
+  "training_customer_rows": 3558,
+  "feature_profile": "paper_visible",
+  "parameters": {
+    "max_depth": 3,
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "class_weighting": "none",
+  "duration_transform": "raw",
+  "evaluation_scope": "compressed_training_dataset_holdout",
+  "fit_seconds": 0.2378303000004962,
+  "model_reload_verified": true,
+  "seed": 42
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "reconstruct-10354-20261101T192542Z-f8094711",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "XGBoost"
+  ],
+  "training_pool_rows": null,
+  "feature_scope": null,
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/reconstruct-10354-20261101T192542Z-f8094711",
+  "aggregate_record_count": 71,
+  "measured_result_count": 36,
+  "notes": ""
+}

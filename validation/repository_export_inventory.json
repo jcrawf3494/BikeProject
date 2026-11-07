@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-11-07",
+  "run_count": 29,
+  "model_result_count": 96,
+  "statuses": {
+    "completed": 23,
+    "partial": 1,
+    "failed": 1,
+    "incomplete": 4
+  },
+  "aggregate_only": true,
+  "excluded": [
+    "Row-level trips and identifiers",
+    "Postal-code values and locality row mappings",
+    "Predictions and fold membership rows",
+    "Raw logs and document metadata",
+    "Fitted binaries and installed runtimes",
+    "Credentials and machine profiles"
+  ],
+  "redactions_applied": 6,
+  "nonfinite_values_normalized_to_null": 2
+}

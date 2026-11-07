@@ -1,0 +1,19 @@
+{
+  "run_id": "tune-2026-10-29T19-10-24-834405300Z-8d26f76a",
+  "source_scope": "project",
+  "status": "partial",
+  "kind": "experiment",
+  "models": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "extended",
+  "aggregate_record_directory": "experiments/records/project/tune-2026-10-29T19-10-24-834405300Z-8d26f76a",
+  "aggregate_record_count": 5,
+  "measured_result_count": 1,
+  "notes": "P1 completed; no all-model completion record. Cause of interruption is not established by the saved records."
+}

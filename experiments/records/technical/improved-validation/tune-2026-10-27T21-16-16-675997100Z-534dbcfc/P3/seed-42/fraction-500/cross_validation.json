@@ -1,0 +1,62 @@
+[
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6737120517732361,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "regParam": "1.0E-4",
+      "elasticNetParam": "0.0"
+    },
+    "candidate": 0
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6690460913479533,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "regParam": "0.01",
+      "elasticNetParam": "0.0"
+    },
+    "candidate": 1
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6376624580095032,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "regParam": "0.1",
+      "elasticNetParam": "0.0"
+    },
+    "candidate": 2
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6751169907926297,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "regParam": "1.0E-4",
+      "elasticNetParam": "0.5"
+    },
+    "candidate": 3
+  },
+  {
+    "selected": true,
+    "mean_customer_f0_5": 0.6771782960358953,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "regParam": "0.01",
+      "elasticNetParam": "0.5"
+    },
+    "candidate": 4
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.658810201347792,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "regParam": "0.1",
+      "elasticNetParam": "0.5"
+    },
+    "candidate": 5
+  }
+]

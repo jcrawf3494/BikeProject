@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "fixed_test_rows": 133553,
+  "results": 12,
+  "frozen_settings_sha256": "31b2ca65df29d8609606928da2e78d3b2de26eeaa9853b0ac084f8f6a83341b1"
+}

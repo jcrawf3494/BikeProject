@@ -1,0 +1,13 @@
+{
+  "method": "stratified",
+  "target_rows": 10354,
+  "similarity_width": null,
+  "fitting_pool_rows": 357603,
+  "candidate_rows": 357603,
+  "candidate_customer_rows": 54993,
+  "sampled_rows": 10354,
+  "sampled_customer_rows": 1592,
+  "sampled_customer_rate": 0.1537570021247827,
+  "exact_size_adjustment": "Seeded stratified selection from candidate pool; class mix follows that pool",
+  "similarity_assumption": "One representative per width-.03 min-max feature cell AND class; cross-cell neighbors not merged"
+}

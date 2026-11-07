@@ -1,0 +1,19 @@
+{
+  "run_id": "tune-2026-10-30T01-39-38-821598Z-8d5c2d7e",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "extended",
+  "aggregate_record_directory": "experiments/records/project/tune-2026-10-30T01-39-38-821598Z-8d5c2d7e",
+  "aggregate_record_count": 15,
+  "measured_result_count": 3,
+  "notes": ""
+}

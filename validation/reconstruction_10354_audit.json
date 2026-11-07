@@ -1,0 +1,81 @@
+{
+  "development_run": "reconstruct-10354-20261101T192542Z-f8094711",
+  "development_models_verified": 36,
+  "all_samples_exactly_10354": true,
+  "sampled_holdout_counts_verified": true,
+  "original_split_ids_labels_preserved": true,
+  "no_project_test_rows_in_development": true,
+  "disjoint_calibration_selection_and_scoring_ids": true,
+  "cutoff_optima_independently_bruteforced": true,
+  "cross_validation_selected_parameter_records_verified": true,
+  "saved_predictions_and_confusion_metrics_verified": true,
+  "locality_ablation_uses_identical_stratified_sample_ids": true,
+  "locality_definition_is_assumed": true,
+  "exact_original_experiment_reproduction_claimed": false,
+  "final_run": "baseline-10354-test-20261101T193451Z-48e5ef1a",
+  "final_project_test_predictions_verified": 12,
+  "final_compressed_holdout_predictions_verified": 6,
+  "frozen_settings_copied_before_project_test_predictions": true,
+  "summaries": {
+    "reference_fixed": {
+      "seeds": 3,
+      "mean_f0_5": 0.8694270500300956,
+      "sample_sd_f0_5": 0.003441492322441847,
+      "scores": [
+        0.8715570826522556,
+        0.8712673891493935,
+        0.8654566782886376
+      ]
+    },
+    "training_selected": {
+      "seeds": 3,
+      "mean_f0_5": 0.8798509251061549,
+      "sample_sd_f0_5": 0.003555861643486349,
+      "scores": [
+        0.8803420797797249,
+        0.8831356774059039,
+        0.876075018132836
+      ]
+    },
+    "similarity_reference_fixed": {
+      "seeds": 3,
+      "mean_f0_5": 0.6715969054966047,
+      "sample_sd_f0_5": 0.04117243634988945,
+      "scores": [
+        0.6398732997950438,
+        0.7181243103462799,
+        0.6567931063484903
+      ]
+    },
+    "similarity_training_selected": {
+      "seeds": 3,
+      "mean_f0_5": 0.8026238572355361,
+      "sample_sd_f0_5": 0.0449104581879869,
+      "scores": [
+        0.7516834173143685,
+        0.8196826005045184,
+        0.8365055538877214
+      ]
+    },
+    "compressed_reference_fixed": {
+      "seeds": 3,
+      "mean_f0_5": 0.8158626988025498,
+      "sample_sd_f0_5": 0.015019903324211901,
+      "scores": [
+        0.8154402895054282,
+        0.8310893512851897,
+        0.8010584556170315
+      ]
+    },
+    "compressed_training_selected": {
+      "seeds": 3,
+      "mean_f0_5": 0.8270349096855331,
+      "sample_sd_f0_5": 0.004218254958507178,
+      "scores": [
+        0.822194591234069,
+        0.828983727356463,
+        0.8299264104660671
+      ]
+    }
+  }
+}

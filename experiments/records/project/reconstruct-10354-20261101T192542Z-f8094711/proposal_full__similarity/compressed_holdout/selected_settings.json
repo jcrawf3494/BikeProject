@@ -1,0 +1,33 @@
+{
+  "selected_by": "three_fold_training_cross_validation",
+  "fixed_parameters": {
+    "max_depth": 3,
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "calibrated_parameters": {
+    "max_depth": 3,
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "cutoff": 0.6174936890602112,
+  "calibration_scores": {
+    "customer_f0_5": 0.7492260061919505,
+    "customer_precision": 0.8402777777777778,
+    "customer_recall": 0.5226781857451404,
+    "accuracy": 0.7851971037811746,
+    "area_under_pr": 0.7999867675821273,
+    "tp": 242,
+    "fp": 46,
+    "tn": 734,
+    "fn": 221,
+    "evaluation_rows": 1243,
+    "decision_threshold": 0.6174936890602112
+  },
+  "selection_rows": 7040,
+  "calibration_rows": 1243
+}

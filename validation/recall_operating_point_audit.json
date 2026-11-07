@@ -1,0 +1,89 @@
+{
+  "policy": {
+    "selection_source": "tune-2026-10-28T03-20-22-656784500Z-f65328f7",
+    "minimum_validation_recall": 0.6,
+    "model": "P1",
+    "validation_seed": 42,
+    "validation_selection_metrics": {
+      "evaluation_rows": 178803,
+      "tp": 16503,
+      "customer_recall": 0.6001745644979453,
+      "accuracy": 0.9017969497156088,
+      "customer_f0_5": 0.6889512311199059,
+      "fp": 6565,
+      "fn": 10994,
+      "tn": 144741,
+      "threshold": 0.7857926363639915,
+      "customer_precision": 0.7154066238945725
+    },
+    "interpretation": "Validation metrics describe cutoff selection; recall on another dataset is not guaranteed",
+    "test_used_for_selection": false,
+    "selected_threshold": 0.7857926363639915,
+    "selection_objective": "Highest validation Customer F0.5 subject to minimum recall"
+  },
+  "original_three_seed_summary": {
+    "customer_precision": {
+      "mean": 0.8282599048426911,
+      "sample_sd": 0.016593542740586623
+    },
+    "customer_recall": {
+      "mean": 0.4679985201627821,
+      "sample_sd": 0.02301746442876204
+    },
+    "customer_f0_5": {
+      "mean": 0.7172604257815869,
+      "sample_sd": 0.001370452183104701
+    },
+    "accuracy": {
+      "mean": 0.9023134386098902,
+      "sample_sd": 0.0011404952066492347
+    }
+  },
+  "recall_three_seed_summary": {
+    "customer_precision": {
+      "mean": 0.7184463066148022,
+      "sample_sd": 0.001047622304857844
+    },
+    "customer_recall": {
+      "mean": 0.5950232430954334,
+      "sample_sd": 0.0005068748494133038
+    },
+    "customer_f0_5": {
+      "mean": 0.6898282491835274,
+      "sample_sd": 0.0006422741212699504
+    },
+    "accuracy": {
+      "mean": 0.9009781385167935,
+      "sample_sd": 0.00014173919332400448
+    }
+  },
+  "seed_checks": [
+    {
+      "seed": 42,
+      "test_ids_and_labels_unchanged": true,
+      "probabilities_unchanged_exactly": true,
+      "customer_predictions_are_superset": true,
+      "cutoff_and_confusion_metrics_verified": true,
+      "model_reload_probe_passed": true
+    },
+    {
+      "seed": 43,
+      "test_ids_and_labels_unchanged": true,
+      "probabilities_unchanged_exactly": true,
+      "customer_predictions_are_superset": true,
+      "cutoff_and_confusion_metrics_verified": true,
+      "model_reload_probe_passed": true
+    },
+    {
+      "seed": 44,
+      "test_ids_and_labels_unchanged": true,
+      "probabilities_unchanged_exactly": true,
+      "customer_predictions_are_superset": true,
+      "cutoff_and_confusion_metrics_verified": true,
+      "model_reload_probe_passed": true
+    }
+  ],
+  "validation_constrained_optimum_independently_verified": true,
+  "threshold_selection_test_ids_disjoint": true,
+  "interpretation": "Alternative operating-point experiment on an already examined project test set; target recall applies to validation only."
+}

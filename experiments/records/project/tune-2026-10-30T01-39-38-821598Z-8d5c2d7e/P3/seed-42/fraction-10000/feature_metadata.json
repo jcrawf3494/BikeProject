@@ -1,0 +1,7 @@
+{
+  "feature_vector_size": 101,
+  "native_categorical_attributes": [],
+  "tree_encoding": "onehot",
+  "metadata_preserved": true,
+  "feature_variant": "standard"
+}

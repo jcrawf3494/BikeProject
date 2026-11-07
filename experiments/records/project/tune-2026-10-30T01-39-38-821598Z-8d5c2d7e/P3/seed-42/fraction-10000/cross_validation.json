@@ -1,0 +1,82 @@
+[
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6897812544489234,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "1.0E-4"
+    },
+    "candidate": 0
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6897926008345237,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "1.0E-4"
+    },
+    "candidate": 1
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.689434205922738,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "0.001"
+    },
+    "candidate": 2
+  },
+  {
+    "selected": true,
+    "mean_customer_f0_5": 0.6898268079045932,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "0.001"
+    },
+    "candidate": 3
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.684613661801771,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "0.01"
+    },
+    "candidate": 4
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6897942834665193,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "0.01"
+    },
+    "candidate": 5
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6557837591748282,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "0.1"
+    },
+    "candidate": 6
+  },
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.6781062001083304,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "0.1"
+    },
+    "candidate": 7
+  }
+]

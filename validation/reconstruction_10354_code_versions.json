@@ -1,0 +1,7 @@
+{
+  "development_source_sha256": "10bf313f9a0ff996ef4f30f7486c32735d7f55b01ce4467984af9df71c7470b4",
+  "final_source_sha256": "85eb9bdf5efa40857f5d65990743c2564e232a5658fad9f2af1dd84f21a82722",
+  "reason_for_additive_final_control": "Evaluate the predeclared paper-style similarity recipe on the shared test even when stratified sampling wins training-only selection",
+  "frozen_settings_sha256": "31b2ca65df29d8609606928da2e78d3b2de26eeaa9853b0ac084f8f6a83341b1",
+  "frozen_before_project_test_scoring": true
+}

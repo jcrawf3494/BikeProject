@@ -1,0 +1,19 @@
+{
+  "run_id": "tune-2026-10-29T17-12-29-039487100Z-2515e3a9",
+  "source_scope": "project",
+  "status": "failed",
+  "kind": "experiment",
+  "models": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "extended",
+  "aggregate_record_directory": "experiments/records/project/tune-2026-10-29T17-12-29-039487100Z-2515e3a9",
+  "aggregate_record_count": 1,
+  "measured_result_count": 0,
+  "notes": "Task serialization StackOverflowError during P1; no completed model scores."
+}

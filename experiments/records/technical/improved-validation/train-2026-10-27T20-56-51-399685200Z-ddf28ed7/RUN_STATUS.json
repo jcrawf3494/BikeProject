@@ -1,0 +1,17 @@
+{
+  "run_id": "train-2026-10-27T20-56-51-399685200Z-ddf28ed7",
+  "source_scope": "auxiliary/improved-validation",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "standard",
+  "aggregate_record_directory": "experiments/records/technical/improved-validation/train-2026-10-27T20-56-51-399685200Z-ddf28ed7",
+  "aggregate_record_count": 4,
+  "measured_result_count": 1,
+  "notes": ""
+}

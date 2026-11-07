@@ -1,0 +1,22 @@
+[
+  {
+    "selected": false,
+    "mean_customer_f0_5": 0.48181375334902987,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "maxDepth": "3",
+      "numTrees": "3"
+    },
+    "candidate": 0
+  },
+  {
+    "selected": true,
+    "mean_customer_f0_5": 0.5032305338938631,
+    "selection_metric": "mean_fold_best_threshold_customer_f0_5",
+    "parameters": {
+      "maxDepth": "3",
+      "numTrees": "5"
+    },
+    "candidate": 1
+  }
+]

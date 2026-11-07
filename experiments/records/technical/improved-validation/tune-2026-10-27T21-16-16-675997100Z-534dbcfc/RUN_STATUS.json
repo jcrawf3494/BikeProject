@@ -1,0 +1,19 @@
+{
+  "run_id": "tune-2026-10-27T21-16-16-675997100Z-534dbcfc",
+  "source_scope": "auxiliary/improved-validation",
+  "status": "incomplete",
+  "kind": "experiment",
+  "models": [
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "standard",
+  "aggregate_record_directory": "experiments/records/technical/improved-validation/tune-2026-10-27T21-16-16-675997100Z-534dbcfc",
+  "aggregate_record_count": 3,
+  "measured_result_count": 0,
+  "notes": "No completed result record. Do not treat planned settings or fixture metadata as a measured model result."
+}

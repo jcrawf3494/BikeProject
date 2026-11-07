@@ -1,0 +1,19 @@
+{
+  "run_id": "tune-2026-10-28T19-06-23-941768200Z-ae552820",
+  "source_scope": "technical/full-tuning-checks",
+  "status": "completed",
+  "kind": "technical_verification",
+  "models": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "training_pool_rows": 1200,
+  "feature_scope": "full",
+  "feature_variant": "interactions",
+  "search_budget": "check",
+  "aggregate_record_directory": "experiments/records/technical/full-tuning-checks/tune-2026-10-28T19-06-23-941768200Z-ae552820",
+  "aggregate_record_count": 15,
+  "measured_result_count": 3,
+  "notes": ""
+}
