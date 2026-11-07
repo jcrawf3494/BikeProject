@@ -1,0 +1,17 @@
+{
+  "run_id": "baseline-20261027T204409Z-df61a56c",
+  "source_scope": "technical/baseline-validation",
+  "status": "completed",
+  "kind": "technical_verification",
+  "models": [
+    "B0_protocol_approximation"
+  ],
+  "training_pool_rows": null,
+  "feature_scope": null,
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/technical/baseline-validation/baseline-20261027T204409Z-df61a56c",
+  "aggregate_record_count": 1,
+  "measured_result_count": 1,
+  "notes": ""
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "candidate": 0,
+    "mean_customer_f0_5": 0.39887993599634264,
+    "selected": false,
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "0.001"
+    }
+  },
+  {
+    "candidate": 1,
+    "mean_customer_f0_5": 0.39887993599634264,
+    "selected": false,
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "0.001"
+    }
+  },
+  {
+    "candidate": 2,
+    "mean_customer_f0_5": 0.39144725710033645,
+    "selected": false,
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "0.01"
+    }
+  },
+  {
+    "candidate": 3,
+    "mean_customer_f0_5": 0.40722672395711945,
+    "selected": false,
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "0.01"
+    }
+  },
+  {
+    "candidate": 4,
+    "mean_customer_f0_5": 0.4089341833351185,
+    "selected": false,
+    "parameters": {
+      "elasticNetParam": "0.0",
+      "regParam": "0.1"
+    }
+  },
+  {
+    "candidate": 5,
+    "mean_customer_f0_5": 0.4733767805663231,
+    "selected": true,
+    "parameters": {
+      "elasticNetParam": "0.5",
+      "regParam": "0.1"
+    }
+  }
+]

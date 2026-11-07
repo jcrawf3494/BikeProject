@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-11-07",
+  "unit_test_methods_passed": 5,
+  "aggregate_metric_records_checked": 360,
+  "experiment_run_folders": 29,
+  "aggregate_model_outcomes": 96,
+  "scala_compile": "passed",
+  "compiled_artifact": "bikeshare-models-8daa3b1b2e3d.jar",
+  "powershell_parse": "passed",
+  "spark_submit_help": "passed",
+  "spark_shell_help_and_4mb_stack": "passed",
+  "initial_portability_issue": "Relative Hadoop native-helper path rejected; fixed by resolving configured paths before launching.",
+  "public_name_contact_path_and_credential_findings": 0,
+  "markdown_link_findings": 0,
+  "ci_status": "Configured; remote execution status is reported by the pull request.",
+  "scope": "Publication verification; no model training or private trip data used by these launcher checks."
+}

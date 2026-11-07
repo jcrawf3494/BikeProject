@@ -1,0 +1,89 @@
+{
+  "search_budget": "check",
+  "feature_profile": "full",
+  "development_fraction": 1.0,
+  "numeric_features": [
+    "duration_sec",
+    "is_weekend",
+    "is_holiday",
+    "is_round_trip",
+    "max_temperature_f",
+    "mean_temperature_f",
+    "min_temperature_f",
+    "max_dew_point_f",
+    "mean_dew_point_f",
+    "min_dew_point_f",
+    "max_humidity",
+    "mean_humidity",
+    "min_humidity",
+    "max_sea_level_pressure_inches",
+    "mean_sea_level_pressure_inches",
+    "min_sea_level_pressure_inches",
+    "max_visibility_miles",
+    "mean_visibility_miles",
+    "min_visibility_miles",
+    "max_wind_speed_mph",
+    "mean_wind_speed_mph",
+    "max_gust_speed_mph",
+    "precipitation_inches",
+    "cloud_cover",
+    "wind_dir_degrees",
+    "precipitation_trace",
+    "weather_fog",
+    "weather_rain",
+    "weather_thunder",
+    "is_business_day",
+    "is_inter_cluster"
+  ],
+  "source_evaluation": "validation",
+  "tree_encoding": "native",
+  "duration_cap_seconds": 0.0,
+  "duration_transform": "log",
+  "models": [
+    {
+      "model": "P1",
+      "seed": 42,
+      "parameters": {
+        "stepSize": "0.1",
+        "subsamplingRate": "1.0",
+        "maxDepth": "2",
+        "minInstancesPerNode": "20",
+        "featureSubsetStrategy": "all",
+        "maxBins": "128",
+        "maxIter": "2"
+      }
+    },
+    {
+      "model": "P2",
+      "seed": 42,
+      "parameters": {
+        "subsamplingRate": "1.0",
+        "maxDepth": "3",
+        "minInstancesPerNode": "10",
+        "featureSubsetStrategy": "auto",
+        "maxBins": "128",
+        "numTrees": "5"
+      }
+    },
+    {
+      "model": "P3",
+      "seed": 42,
+      "parameters": {
+        "elasticNetParam": "0.0",
+        "regParam": "0.01",
+        "tol": "1.0E-6",
+        "maxIter": "10"
+      }
+    }
+  ],
+  "categorical_features": [
+    "start_hour",
+    "day_of_week",
+    "month",
+    "start_cluster",
+    "end_cluster",
+    "weather_events"
+  ],
+  "feature_variant": "interactions",
+  "selected_by": "training_cross_validation"
+}

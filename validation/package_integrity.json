@@ -1,0 +1,19 @@
+{
+  "source_jar_matches": true,
+  "current_jar": "bikeshare-models-8daa3b1b2e3d.jar",
+  "current_jar_sha256": "fea5ce2ebd80852dbabc77a8ec35a945abd758972961eacf9f264842ccff1859",
+  "original_data_checksums_match": true,
+  "recall_experiment_completed_and_independently_audited": true,
+  "validation_cutoff_selection_used_test_labels": false,
+  "original_models_and_results_preserved": true,
+  "full_data_development_independently_audited": true,
+  "raw_trip_and_weather_semantics_verified": true,
+  "native_and_interaction_feature_metadata_verified": true,
+  "full_xgboost_control_retains_all_fitting_rows": true,
+  "stack_overflow_fix_verified_in_spark_shell_on_fixture": true,
+  "full_data_extended_search_after_runtime_fix": "completed_training_validation",
+  "primary_paper_reconstruction_target_rows": 10354,
+  "paper_reconstruction_independently_audited": true,
+  "paper_reconstruction_is_exact_authors_code": false,
+  "paper_reconstruction_uses_frozen_training_selected_settings": true
+}

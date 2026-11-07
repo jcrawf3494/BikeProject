@@ -1,0 +1,19 @@
+{
+  "run_id": "tune-2026-10-27T19-45-18-660861Z-80597513",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "Explicit feature lists only; default is preliminary trip/time features, without weather or clusters",
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/tune-2026-10-27T19-45-18-660861Z-80597513",
+  "aggregate_record_count": 8,
+  "measured_result_count": 3,
+  "notes": ""
+}

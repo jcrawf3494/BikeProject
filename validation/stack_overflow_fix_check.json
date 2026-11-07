@@ -1,0 +1,33 @@
+{
+  "scope": "Small-fixture runtime verification; not a new full-data score",
+  "spark_shell_test_completed": true,
+  "compiled_artifact": "bikeshare-models-8daa3b1b2e3d.jar",
+  "driver_stack_option_verified": "-Xss4m",
+  "gbt_depth": 7,
+  "gbt_iterations": 240,
+  "gbt_step_size": 0.03,
+  "gbt_checkpoint_interval": 10,
+  "materialized_checkpoint_directories_observed": 46,
+  "full_source_data_or_splits_changed": false,
+  "failed_search_has_no_completed_models_or_selected_settings": true,
+  "independent_fixture_audit": {
+    "run": "train-2026-10-29T18-36-27-011065100Z-8830dd00",
+    "evaluation": "validation",
+    "models_verified": 1,
+    "role_checks": [
+      {
+        "partition": "seed-42/fraction-10000",
+        "fitting_rows": 799,
+        "calibration_rows": 112,
+        "model_selection_rows": 687,
+        "disjoint_roles": true,
+        "balanced_three_folds": true
+      }
+    ],
+    "prediction_ids_labels_cutoffs_and_confusion_metrics_verified": true,
+    "cv_selected_parameter_records_verified": 0,
+    "imported_parameter_records_verified": 0,
+    "model_reload_checks_passed": true
+  },
+  "full_data_extended_search_after_fix": "pending"
+}

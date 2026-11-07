@@ -1,0 +1,112 @@
+{
+  "target_rows": 10354,
+  "seed": 42,
+  "grid": [
+    {
+      "max_depth": 3,
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    {
+      "max_depth": 3,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    {
+      "max_depth": 5,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    {
+      "max_depth": 7,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    {
+      "max_depth": 9,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 5,
+      "reg_lambda": 10
+    },
+    {
+      "max_depth": 5,
+      "n_estimators": 800,
+      "learning_rate": 0.03,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    {
+      "max_depth": 7,
+      "n_estimators": 800,
+      "learning_rate": 0.03,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.1,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    {
+      "max_depth": 3,
+      "n_estimators": 800,
+      "learning_rate": 0.03,
+      "min_child_weight": 1,
+      "reg_lambda": 5
+    }
+  ],
+  "profiles": [
+    "paper_visible",
+    "paper_without_zip",
+    "proposal_full"
+  ],
+  "samplers": [
+    "stratified",
+    "similarity"
+  ],
+  "protocols": [
+    "fixed_project_test_reconstruction",
+    "compressed_dataset_80_20"
+  ],
+  "stage": "training_only_development",
+  "source_training_rows": 536406,
+  "fitting_pool_rows": 357603,
+  "outer_validation_rows": 178803,
+  "project_test_used_for_selection": false,
+  "locality_metadata_sha256": "7687c902c47765ad7d1b4880ef24689f326bf4799736dbd13d5c0b5fe18a9a65",
+  "local_zip_assumption": "Raw rider postal code begins with 94 or 95, for a valid five-digit US ZIP; missing is separate",
+  "paper_feature_mapping": "Pressure/humidity/temperature/dew use mean daily values; exact original aggregations unknown",
+  "source_code_unavailable": true,
+  "similarity_radius_exactly_reproduced": false,
+  "reference_parameters": {
+    "max_depth": 3,
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "class_weighting": "none",
+  "dependencies": {
+    "xgboost": "3.1.2",
+    "sklearn": "1.6.1",
+    "numpy": "2.5.4"
+  }
+}

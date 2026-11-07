@@ -1,0 +1,32 @@
+{
+  "feature_vector_size": 37,
+  "native_categorical_attributes": [
+    {
+      "name": "start_hour__index",
+      "categories": 25
+    },
+    {
+      "name": "day_of_week__index",
+      "categories": 8
+    },
+    {
+      "name": "month__index",
+      "categories": 13
+    },
+    {
+      "name": "start_cluster__index",
+      "categories": 6
+    },
+    {
+      "name": "end_cluster__index",
+      "categories": 6
+    },
+    {
+      "name": "weather_events__index",
+      "categories": 6
+    }
+  ],
+  "tree_encoding": "native",
+  "metadata_preserved": true,
+  "feature_variant": "standard"
+}

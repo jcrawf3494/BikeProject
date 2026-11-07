@@ -1,0 +1,52 @@
+{
+  "train_rows": 536406,
+  "test_rows": 133553,
+  "enriched_ids_labels_and_split_preserved": true,
+  "runs": [
+    {
+      "run": "train-2026-10-27T20-56-51-399685200Z-ddf28ed7",
+      "evaluation": "validation",
+      "models_verified": 1,
+      "role_checks": [
+        {
+          "partition": "seed-42/fraction-10000",
+          "fitting_rows": 357603,
+          "calibration_rows": 54043,
+          "model_selection_rows": 303560,
+          "disjoint_roles": true,
+          "balanced_three_folds": true
+        }
+      ],
+      "prediction_ids_labels_cutoffs_and_confusion_metrics_verified": true,
+      "cv_selected_parameter_records_verified": 0,
+      "imported_parameter_records_verified": 0,
+      "model_reload_checks_passed": true
+    },
+    {
+      "run": "train-2026-10-27T21-37-32-802457600Z-a11c3713",
+      "evaluation": "test",
+      "models_verified": 1,
+      "role_checks": [
+        {
+          "partition": "seed-42/fraction-10000",
+          "fitting_rows": 536406,
+          "calibration_rows": 80746,
+          "model_selection_rows": 455660,
+          "disjoint_roles": true,
+          "balanced_three_folds": true
+        }
+      ],
+      "prediction_ids_labels_cutoffs_and_confusion_metrics_verified": true,
+      "cv_selected_parameter_records_verified": 0,
+      "imported_parameter_records_verified": 0,
+      "model_reload_checks_passed": true
+    }
+  ],
+  "baseline": {
+    "run": "baseline-20261027T215053Z-7381c7ef",
+    "fixed_test_ids_labels_cutoff_and_confusion_metrics_verified": true,
+    "sampled_ids_exclusively_from_training": true,
+    "sampled_training_rows": 60810,
+    "protocol_is_approximation": true
+  }
+}

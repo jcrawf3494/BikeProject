@@ -1,0 +1,22 @@
+{
+  "selection_source": "tune-2026-10-28T03-20-22-656784500Z-f65328f7",
+  "minimum_validation_recall": 0.6,
+  "model": "P1",
+  "validation_seed": 42,
+  "validation_selection_metrics": {
+    "evaluation_rows": 178803,
+    "tp": 16503,
+    "customer_recall": 0.6001745644979453,
+    "accuracy": 0.9017969497156088,
+    "customer_f0_5": 0.6889512311199059,
+    "fp": 6565,
+    "fn": 10994,
+    "tn": 144741,
+    "threshold": 0.7857926363639915,
+    "customer_precision": 0.7154066238945725
+  },
+  "interpretation": "Validation metrics describe cutoff selection; recall on another dataset is not guaranteed",
+  "test_used_for_selection": false,
+  "selected_threshold": 0.7857926363639915,
+  "selection_objective": "Highest validation Customer F0.5 subject to minimum recall"
+}

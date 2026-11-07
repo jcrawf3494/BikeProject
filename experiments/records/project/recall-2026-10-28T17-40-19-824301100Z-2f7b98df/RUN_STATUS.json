@@ -1,0 +1,17 @@
+{
+  "run_id": "recall-2026-10-28T17-40-19-824301100Z-2f7b98df",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P1"
+  ],
+  "training_pool_rows": null,
+  "feature_scope": null,
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/recall-2026-10-28T17-40-19-824301100Z-2f7b98df",
+  "aggregate_record_count": 6,
+  "measured_result_count": 3,
+  "notes": ""
+}

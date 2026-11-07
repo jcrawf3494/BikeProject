@@ -1,0 +1,17 @@
+{
+  "run_id": "baseline-20261027T215053Z-7381c7ef",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "B0_protocol_approximation"
+  ],
+  "training_pool_rows": null,
+  "feature_scope": null,
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/baseline-20261027T215053Z-7381c7ef",
+  "aggregate_record_count": 1,
+  "measured_result_count": 1,
+  "notes": ""
+}

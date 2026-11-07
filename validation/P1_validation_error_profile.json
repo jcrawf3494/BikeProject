@@ -1,0 +1,255 @@
+{
+  "source_run": "tune-2026-10-28T03-20-22-656784500Z-f65328f7",
+  "scope": "Training-validation error exploration; no project test data used",
+  "rows": 178803,
+  "missed_customers": 13672,
+  "missed_customers_with_duration_at_most_10_minutes": 5752,
+  "by_duration": [
+    {
+      "duration_band": "10-20 minutes",
+      "rows": 53873,
+      "customers": 8745,
+      "tp": 1663,
+      "fn": 7082,
+      "fp": 1002,
+      "customer_recall": 0.19016580903373356,
+      "customer_precision": 0.6240150093808631
+    },
+    {
+      "duration_band": "5-10 minutes",
+      "rows": 74723,
+      "customers": 4786,
+      "tp": 74,
+      "fn": 4712,
+      "fp": 39,
+      "customer_recall": 0.015461763476807356,
+      "customer_precision": 0.6548672566371682
+    },
+    {
+      "duration_band": "0-5 minutes",
+      "rows": 33465,
+      "customers": 1111,
+      "tp": 71,
+      "fn": 1040,
+      "fp": 37,
+      "customer_recall": 0.0639063906390639,
+      "customer_precision": 0.6574074074074074
+    },
+    {
+      "duration_band": "20-30 minutes",
+      "rows": 7385,
+      "customers": 4502,
+      "tp": 3738,
+      "fn": 764,
+      "fp": 1498,
+      "customer_recall": 0.8302976454908929,
+      "customer_precision": 0.713903743315508
+    },
+    {
+      "duration_band": "30-60 minutes",
+      "rows": 3745,
+      "customers": 3188,
+      "tp": 3140,
+      "fn": 48,
+      "fp": 517,
+      "customer_recall": 0.9849435382685069,
+      "customer_precision": 0.8586272901285207
+    },
+    {
+      "duration_band": "60+ minutes",
+      "rows": 5612,
+      "customers": 5165,
+      "tp": 5139,
+      "fn": 26,
+      "fp": 393,
+      "customer_recall": 0.9949661181026137,
+      "customer_precision": 0.9289587852494577
+    }
+  ],
+  "by_business_day_and_hour": [
+    {
+      "is_business_day": "1.0",
+      "hour_band": "10-16",
+      "rows": 50028,
+      "customers": 8597,
+      "tp": 3833,
+      "fn": 4764,
+      "fp": 974,
+      "customer_recall": 0.445853204606258,
+      "customer_precision": 0.7973788225504472
+    },
+    {
+      "is_business_day": "1.0",
+      "hour_band": "17-19",
+      "rows": 40889,
+      "customers": 3170,
+      "tp": 818,
+      "fn": 2352,
+      "fp": 359,
+      "customer_recall": 0.2580441640378549,
+      "customer_precision": 0.6949872557349193
+    },
+    {
+      "is_business_day": "0.0",
+      "hour_band": "10-16",
+      "rows": 15284,
+      "customers": 8185,
+      "tp": 6019,
+      "fn": 2166,
+      "fp": 1300,
+      "customer_recall": 0.735369578497251,
+      "customer_precision": 0.822380106571936
+    },
+    {
+      "is_business_day": "1.0",
+      "hour_band": "07-09",
+      "rows": 48965,
+      "customers": 1972,
+      "tp": 333,
+      "fn": 1639,
+      "fp": 140,
+      "customer_recall": 0.16886409736308317,
+      "customer_precision": 0.7040169133192389
+    },
+    {
+      "is_business_day": "1.0",
+      "hour_band": "20-23",
+      "rows": 8595,
+      "customers": 1371,
+      "tp": 466,
+      "fn": 905,
+      "fp": 177,
+      "customer_recall": 0.3398978847556528,
+      "customer_precision": 0.7247278382581649
+    },
+    {
+      "is_business_day": "0.0",
+      "hour_band": "17-19",
+      "rows": 4253,
+      "customers": 1895,
+      "tp": 1093,
+      "fn": 802,
+      "fp": 230,
+      "customer_recall": 0.5767810026385224,
+      "customer_precision": 0.8261526832955405
+    },
+    {
+      "is_business_day": "0.0",
+      "hour_band": "07-09",
+      "rows": 2632,
+      "customers": 864,
+      "tp": 495,
+      "fn": 369,
+      "fp": 99,
+      "customer_recall": 0.5729166666666666,
+      "customer_precision": 0.8333333333333334
+    },
+    {
+      "is_business_day": "0.0",
+      "hour_band": "20-23",
+      "rows": 1975,
+      "customers": 735,
+      "tp": 392,
+      "fn": 343,
+      "fp": 129,
+      "customer_recall": 0.5333333333333333,
+      "customer_precision": 0.7523992322456814
+    },
+    {
+      "is_business_day": "1.0",
+      "hour_band": "00-06",
+      "rows": 5333,
+      "customers": 364,
+      "tp": 153,
+      "fn": 211,
+      "fp": 41,
+      "customer_recall": 0.42032967032967034,
+      "customer_precision": 0.788659793814433
+    },
+    {
+      "is_business_day": "0.0",
+      "hour_band": "00-06",
+      "rows": 849,
+      "customers": 344,
+      "tp": 223,
+      "fn": 121,
+      "fp": 37,
+      "customer_recall": 0.6482558139534884,
+      "customer_precision": 0.8576923076923076
+    }
+  ],
+  "by_round_trip": [
+    {
+      "is_round_trip": "0",
+      "rows": 172378,
+      "customers": 23119,
+      "tp": 10122,
+      "fn": 12997,
+      "fp": 2926,
+      "customer_recall": 0.4378217050910507,
+      "customer_precision": 0.7757510729613734
+    },
+    {
+      "is_round_trip": "1",
+      "rows": 6425,
+      "customers": 4378,
+      "tp": 3703,
+      "fn": 675,
+      "fp": 560,
+      "customer_recall": 0.845820009136592,
+      "customer_precision": 0.8686371100164204
+    }
+  ],
+  "by_start_cluster": [
+    {
+      "start_cluster": "2",
+      "rows": 161270,
+      "customers": 24143,
+      "tp": 11798,
+      "fn": 12345,
+      "fp": 3039,
+      "customer_recall": 0.48867166466470613,
+      "customer_precision": 0.7951742265956729
+    },
+    {
+      "start_cluster": "1",
+      "rows": 10088,
+      "customers": 1661,
+      "tp": 858,
+      "fn": 803,
+      "fp": 249,
+      "customer_recall": 0.5165562913907285,
+      "customer_precision": 0.7750677506775068
+    },
+    {
+      "start_cluster": "3",
+      "rows": 4713,
+      "customers": 694,
+      "tp": 436,
+      "fn": 258,
+      "fp": 93,
+      "customer_recall": 0.6282420749279539,
+      "customer_precision": 0.8241965973534972
+    },
+    {
+      "start_cluster": "4",
+      "rows": 1830,
+      "customers": 833,
+      "tp": 647,
+      "fn": 186,
+      "fp": 79,
+      "customer_recall": 0.7767106842737095,
+      "customer_precision": 0.8911845730027548
+    },
+    {
+      "start_cluster": "0",
+      "rows": 902,
+      "customers": 166,
+      "tp": 86,
+      "fn": 80,
+      "fp": 26,
+      "customer_recall": 0.5180722891566265,
+      "customer_precision": 0.7678571428571429
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "index": 0,
+    "parameters": {
+      "max_depth": 3,
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    "fold_fixed_f05": [
+      0.8663205710577547,
+      0.848132271892223,
+      0.872865275142315
+    ],
+    "fold_attainable_f05": [
+      0.8692676249144422,
+      0.8610567514677103,
+      0.8927403531720078
+    ],
+    "mean_fixed_f05": 0.8624393726974309,
+    "mean_attainable_f05": 0.8743549098513869
+  },
+  {
+    "index": 1,
+    "parameters": {
+      "max_depth": 3,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    "fold_fixed_f05": [
+      0.8596265292981327,
+      0.8532842234499693,
+      0.8675078864353313
+    ],
+    "fold_attainable_f05": [
+      0.8740536820371645,
+      0.8621774701069855,
+      0.8892025405786874
+    ],
+    "mean_fixed_f05": 0.8601395463944778,
+    "mean_attainable_f05": 0.8751445642409458
+  },
+  {
+    "index": 2,
+    "parameters": {
+      "max_depth": 5,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    "fold_fixed_f05": [
+      0.8550540368722187,
+      0.8460598656078192,
+      0.8453350031308704
+    ],
+    "fold_attainable_f05": [
+      0.8804581245526127,
+      0.8644688644688645,
+      0.876993166287016
+    ],
+    "mean_fixed_f05": 0.8488163018703028,
+    "mean_attainable_f05": 0.873973385102831
+  },
+  {
+    "index": 3,
+    "parameters": {
+      "max_depth": 7,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    "fold_fixed_f05": [
+      0.8443188951663528,
+      0.8429351121892056,
+      0.850091407678245
+    ],
+    "fold_attainable_f05": [
+      0.8902181562280085,
+      0.8582326764144946,
+      0.8773234200743495
+    ],
+    "mean_fixed_f05": 0.8457818050112679,
+    "mean_attainable_f05": 0.8752580842389509
+  },
+  {
+    "index": 4,
+    "parameters": {
+      "max_depth": 9,
+      "n_estimators": 400,
+      "learning_rate": 0.05,
+      "min_child_weight": 5,
+      "reg_lambda": 10
+    },
+    "fold_fixed_f05": [
+      0.8507273877292852,
+      0.8358662613981763,
+      0.8541033434650456
+    ],
+    "fold_attainable_f05": [
+      0.886575735821967,
+      0.8626198083067093,
+      0.8876163206871869
+    ],
+    "mean_fixed_f05": 0.8468989975308358,
+    "mean_attainable_f05": 0.8789372882719544
+  },
+  {
+    "index": 5,
+    "parameters": {
+      "max_depth": 5,
+      "n_estimators": 800,
+      "learning_rate": 0.03,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    "fold_fixed_f05": [
+      0.8486967577876668,
+      0.848132271892223,
+      0.8462492250464972
+    ],
+    "fold_attainable_f05": [
+      0.8844765342960289,
+      0.8592132505175983,
+      0.8800567778566359
+    ],
+    "mean_fixed_f05": 0.8476927515754623,
+    "mean_attainable_f05": 0.8745821875567543
+  },
+  {
+    "index": 6,
+    "parameters": {
+      "max_depth": 7,
+      "n_estimators": 800,
+      "learning_rate": 0.03,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    "fold_fixed_f05": [
+      0.8369497830130193,
+      0.8439975624619135,
+      0.8399029714978775
+    ],
+    "fold_attainable_f05": [
+      0.8891288696904248,
+      0.8594319009468318,
+      0.8750857927247769
+    ],
+    "mean_fixed_f05": 0.8402834389909368,
+    "mean_attainable_f05": 0.8745488544540111
+  },
+  {
+    "index": 7,
+    "parameters": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    "fold_fixed_f05": [
+      0.8444022770398482,
+      0.8389057750759878,
+      0.851326341764343
+    ],
+    "fold_attainable_f05": [
+      0.886575735821967,
+      0.8616944243301955,
+      0.8734344100197758
+    ],
+    "mean_fixed_f05": 0.844878131293393,
+    "mean_attainable_f05": 0.8739015233906461
+  },
+  {
+    "index": 8,
+    "parameters": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.1,
+      "min_child_weight": 3,
+      "reg_lambda": 5
+    },
+    "fold_fixed_f05": [
+      0.8473520249221184,
+      0.839855508729681,
+      0.8469449485783425
+    ],
+    "fold_attainable_f05": [
+      0.8838568298027758,
+      0.8623136976579134,
+      0.8800922367409685
+    ],
+    "mean_fixed_f05": 0.8447174940767139,
+    "mean_attainable_f05": 0.8754209214005525
+  },
+  {
+    "index": 9,
+    "parameters": {
+      "max_depth": 3,
+      "n_estimators": 800,
+      "learning_rate": 0.03,
+      "min_child_weight": 1,
+      "reg_lambda": 5
+    },
+    "fold_fixed_f05": [
+      0.86084142394822,
+      0.8521686010995724,
+      0.8588382261086821
+    ],
+    "fold_attainable_f05": [
+      0.8821349147516679,
+      0.8618463524854745,
+      0.8845374746792708
+    ],
+    "mean_fixed_f05": 0.8572827503854915,
+    "mean_attainable_f05": 0.8761729139721378
+  }
+]

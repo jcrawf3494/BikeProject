@@ -1,0 +1,17 @@
+{
+  "run_id": "train-2026-10-27T21-37-32-802457600Z-a11c3713",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "standard",
+  "aggregate_record_directory": "experiments/records/project/train-2026-10-27T21-37-32-802457600Z-a11c3713",
+  "aggregate_record_count": 4,
+  "measured_result_count": 1,
+  "notes": ""
+}

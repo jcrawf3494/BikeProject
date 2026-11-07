@@ -1,0 +1,17 @@
+{
+  "run_id": "baseline-10354-test-20261101T193451Z-48e5ef1a",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "XGBoost"
+  ],
+  "training_pool_rows": null,
+  "feature_scope": null,
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/baseline-10354-test-20261101T193451Z-48e5ef1a",
+  "aggregate_record_count": 40,
+  "measured_result_count": 18,
+  "notes": ""
+}

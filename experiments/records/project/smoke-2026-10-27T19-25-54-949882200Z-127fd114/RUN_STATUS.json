@@ -1,0 +1,19 @@
+{
+  "run_id": "smoke-2026-10-27T19-25-54-949882200Z-127fd114",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "technical_verification",
+  "models": [
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "Explicit feature lists only; default is preliminary trip/time features, without weather or clusters",
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/smoke-2026-10-27T19-25-54-949882200Z-127fd114",
+  "aggregate_record_count": 5,
+  "measured_result_count": 3,
+  "notes": ""
+}

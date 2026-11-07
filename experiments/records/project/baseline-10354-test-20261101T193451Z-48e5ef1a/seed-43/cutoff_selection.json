@@ -1,0 +1,16 @@
+{
+  "cutoff": 0.7054543495178223,
+  "calibration_scores": {
+    "customer_f0_5": 0.8748674443266172,
+    "customer_precision": 0.9375,
+    "customer_recall": 0.6903765690376569,
+    "accuracy": 0.9453024453024453,
+    "area_under_pr": 0.8687754559293769,
+    "tp": 165,
+    "fp": 11,
+    "tn": 1304,
+    "fn": 74,
+    "evaluation_rows": 1554,
+    "decision_threshold": 0.7054543495178223
+  }
+}

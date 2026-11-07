@@ -1,0 +1,29 @@
+{
+  "customer_f0_5": 0.8196826005045184,
+  "customer_precision": 0.8413175288141148,
+  "customer_recall": 0.7432321575061526,
+  "accuracy": 0.9384064753318907,
+  "area_under_pr": 0.8494199877644103,
+  "tp": 15402,
+  "fp": 2905,
+  "tn": 109925,
+  "fn": 5321,
+  "evaluation_rows": 133553,
+  "decision_threshold": 0.6486128568649292,
+  "training_rows": 10354,
+  "training_customer_rows": 4447,
+  "feature_profile": "paper_visible",
+  "parameters": {
+    "max_depth": 3,
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "class_weighting": "none",
+  "duration_transform": "raw",
+  "evaluation_scope": "fixed_project_test",
+  "fit_seconds": 0.4398018000065349,
+  "model_reload_verified": true,
+  "seed": 43
+}

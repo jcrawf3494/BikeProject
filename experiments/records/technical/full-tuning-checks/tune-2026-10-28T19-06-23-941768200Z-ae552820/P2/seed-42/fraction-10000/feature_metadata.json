@@ -1,0 +1,44 @@
+{
+  "feature_vector_size": 47,
+  "native_categorical_attributes": [
+    {
+      "name": "start_hour__index",
+      "categories": 23
+    },
+    {
+      "name": "day_of_week__index",
+      "categories": 8
+    },
+    {
+      "name": "month__index",
+      "categories": 13
+    },
+    {
+      "name": "start_cluster__index",
+      "categories": 6
+    },
+    {
+      "name": "end_cluster__index",
+      "categories": 6
+    },
+    {
+      "name": "weather_events__index",
+      "categories": 6
+    },
+    {
+      "name": "hour_business__index",
+      "categories": 40
+    },
+    {
+      "name": "duration_band__index",
+      "categories": 8
+    },
+    {
+      "name": "cluster_pair__index",
+      "categories": 8
+    }
+  ],
+  "tree_encoding": "native",
+  "metadata_preserved": true,
+  "feature_variant": "interactions"
+}

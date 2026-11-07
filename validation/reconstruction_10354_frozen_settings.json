@@ -1,0 +1,73 @@
+{
+  "selected_by": "original_training_outer_validation_after_training_cv",
+  "selected_before_project_test_scoring": true,
+  "target_training_rows": 10354,
+  "feature_profile": "paper_visible",
+  "sampler": "stratified",
+  "policy": "tuned_calibrated",
+  "parameters": {
+    "max_depth": 3,
+    "n_estimators": 400,
+    "learning_rate": 0.05,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "development_cutoff": 0.6666795611381531,
+  "development_validation_f05": 0.8775963145375929,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "source_recipe": "paper_visible__stratified",
+  "reference_parameters": {
+    "max_depth": 3,
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "reg_lambda": 1
+  },
+  "project_test_used_for_selection": false,
+  "manifest_sha256": "f6beeb6d6efb7ac404fe368ec969c5768f92c22fbd427fbde13a930c5e7a1fb2",
+  "compressed_primary": {
+    "recipe_predeclared": "paper_visible__similarity",
+    "selected_by": "training_cross_validation_only",
+    "feature_profile": "paper_visible",
+    "sampler": "similarity",
+    "parameters": {
+      "max_depth": 3,
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    "definition": "10,354 total compressed rows; 8,283 fit and 2,071 holdout; independent of project test",
+    "reference_parameters": {
+      "max_depth": 3,
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    }
+  },
+  "shared_similarity_primary": {
+    "recipe_predeclared": "paper_visible__similarity",
+    "selected_by": "training_cross_validation_only",
+    "feature_profile": "paper_visible",
+    "sampler": "similarity",
+    "parameters": {
+      "max_depth": 3,
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    },
+    "reference_parameters": {
+      "max_depth": 3,
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "reg_lambda": 1
+    }
+  }
+}

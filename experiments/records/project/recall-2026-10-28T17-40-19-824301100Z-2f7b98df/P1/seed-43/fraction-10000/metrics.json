@@ -1,0 +1,31 @@
+{
+  "original_metrics": {
+    "evaluation_rows": 133553,
+    "tp": 9152,
+    "customer_recall": 0.4416348984220431,
+    "accuracy": 0.9009981056209894,
+    "customer_f0_5": 0.7157269101431141,
+    "fp": 1651,
+    "fn": 11571,
+    "tn": 111179,
+    "threshold": 0.8982620598487294,
+    "customer_precision": 0.8471720818291215
+  },
+  "minimum_validation_recall": 0.6,
+  "evaluation_rows": 133553,
+  "seed": 43,
+  "model": "P1",
+  "tp": 12331,
+  "customer_recall": 0.5950393282825845,
+  "model_reload_verified": true,
+  "accuracy": 0.9009157413161816,
+  "customer_f0_5": 0.6895683976244533,
+  "source_run": "train-2026-10-28T04-02-57-528292100Z-8d2ae312",
+  "fp": 4841,
+  "fn": 8392,
+  "original_threshold": 0.8982620598487294,
+  "tn": 107989,
+  "threshold": 0.7857926363639915,
+  "evaluation_scope": "fixed_test_recall_operating_point",
+  "customer_precision": 0.7180875844397857
+}

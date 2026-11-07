@@ -1,0 +1,17 @@
+{
+  "run_id": "train-2026-10-29T18-36-27-011065100Z-8830dd00",
+  "source_scope": "technical/checkpoint-validation",
+  "status": "completed",
+  "kind": "technical_verification",
+  "models": [
+    "P1"
+  ],
+  "training_pool_rows": 1200,
+  "feature_scope": "full",
+  "feature_variant": "standard",
+  "search_budget": "standard",
+  "aggregate_record_directory": "experiments/records/technical/checkpoint-validation/train-2026-10-29T18-36-27-011065100Z-8830dd00",
+  "aggregate_record_count": 5,
+  "measured_result_count": 1,
+  "notes": ""
+}

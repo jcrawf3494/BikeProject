@@ -1,0 +1,39 @@
+{
+  "java_version": "11.0.20.1",
+  "fraction": 1.0,
+  "train_rows": 800,
+  "master": "local[2]",
+  "spark_version": "3.5.9",
+  "shuffle_partitions": 2,
+  "data_dir": "validation-fixture",
+  "numeric_features": [
+    "duration_sec",
+    "is_weekend",
+    "is_holiday",
+    "is_round_trip"
+  ],
+  "scala_version": "2.12.18",
+  "duration_cap_seconds": 86400.0,
+  "seeds": [
+    42
+  ],
+  "test_rows": 400,
+  "test_split_recreated": false,
+  "feature_scope": "Explicit feature lists only; default is preliminary trip/time features, without weather or clusters",
+  "mode": "tune",
+  "models": [
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "categorical_features": [
+    "start_hour",
+    "day_of_week",
+    "month"
+  ],
+  "started_utc": "2026-10-27T17:50:45.364593100Z",
+  "timing_definition": "CV seconds includes all folds plus its best-model refit; final_fit_seconds measures a separate fit of selected settings; excludes prediction and file writing",
+  "cv_parallelism": 1,
+  "application_id": "local-session",
+  "input_path_scope": "Directory name only; local absolute paths omitted"
+}

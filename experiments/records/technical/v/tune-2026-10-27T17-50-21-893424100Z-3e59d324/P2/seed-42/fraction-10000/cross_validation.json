@@ -1,0 +1,38 @@
+[
+  {
+    "candidate": 0,
+    "mean_customer_f0_5": 0.5430866888707708,
+    "selected": false,
+    "parameters": {
+      "numTrees": "30",
+      "maxDepth": "3"
+    }
+  },
+  {
+    "candidate": 1,
+    "mean_customer_f0_5": 0.5817604410622336,
+    "selected": false,
+    "parameters": {
+      "numTrees": "60",
+      "maxDepth": "3"
+    }
+  },
+  {
+    "candidate": 2,
+    "mean_customer_f0_5": 0.5735899720538914,
+    "selected": false,
+    "parameters": {
+      "numTrees": "30",
+      "maxDepth": "5"
+    }
+  },
+  {
+    "candidate": 3,
+    "mean_customer_f0_5": 0.5898872193737624,
+    "selected": true,
+    "parameters": {
+      "numTrees": "60",
+      "maxDepth": "5"
+    }
+  }
+]

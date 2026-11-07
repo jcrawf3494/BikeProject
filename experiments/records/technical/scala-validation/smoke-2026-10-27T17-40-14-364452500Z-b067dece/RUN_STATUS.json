@@ -1,0 +1,19 @@
+{
+  "run_id": "smoke-2026-10-27T17-40-14-364452500Z-b067dece",
+  "source_scope": "technical/scala-validation",
+  "status": "incomplete",
+  "kind": "technical_verification",
+  "models": [
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "Explicit feature lists only; default is preliminary trip/time features, without weather or clusters",
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/technical/scala-validation/smoke-2026-10-27T17-40-14-364452500Z-b067dece",
+  "aggregate_record_count": 1,
+  "measured_result_count": 0,
+  "notes": "No completed result record. Do not treat planned settings or fixture metadata as a measured model result."
+}

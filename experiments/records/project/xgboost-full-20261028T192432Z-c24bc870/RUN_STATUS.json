@@ -1,0 +1,17 @@
+{
+  "run_id": "xgboost-full-20261028T192432Z-c24bc870",
+  "source_scope": "project",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "XGBoost_full_training_control"
+  ],
+  "training_pool_rows": null,
+  "feature_scope": null,
+  "feature_variant": "standard",
+  "search_budget": null,
+  "aggregate_record_directory": "experiments/records/project/xgboost-full-20261028T192432Z-c24bc870",
+  "aggregate_record_count": 1,
+  "measured_result_count": 1,
+  "notes": ""
+}
