@@ -1,0 +1,28 @@
+{
+  "threshold": 0.9504121272177299,
+  "rows": 80149,
+  "test_used": false,
+  "method": "Exact calibration F0.5; highest observed-score tie break; probability > cutoff",
+  "selected_threshold_metrics": {
+    "tp": 8153,
+    "fp": 293,
+    "fn": 4141,
+    "tn": 67562,
+    "evaluation_rows": 80149,
+    "customer_f0_5": 0.8846955162984504,
+    "customer_precision": 0.9653090220222591,
+    "customer_recall": 0.6631690255409143,
+    "accuracy": 0.9446780371557973
+  },
+  "default_threshold_metrics": {
+    "tp": 10513,
+    "fp": 3957,
+    "fn": 1781,
+    "tn": 63898,
+    "evaluation_rows": 80149,
+    "customer_f0_5": 0.7490666058654203,
+    "customer_precision": 0.7265376641326883,
+    "customer_recall": 0.8551325850008134,
+    "accuracy": 0.9284083394677414
+  }
+}

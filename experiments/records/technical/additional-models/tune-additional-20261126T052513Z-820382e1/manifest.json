@@ -1,0 +1,113 @@
+{
+  "started_utc": "2026-11-26T05:25:13.747663+00:00",
+  "mode": "tune",
+  "models": [
+    "P6",
+    "P7"
+  ],
+  "seeds": [
+    42
+  ],
+  "train_rows": 1200,
+  "test_rows": null,
+  "numeric_features": [
+    "duration_sec",
+    "is_weekend",
+    "is_holiday",
+    "is_round_trip",
+    "max_temperature_f",
+    "mean_temperature_f",
+    "min_temperature_f",
+    "max_dew_point_f",
+    "mean_dew_point_f",
+    "min_dew_point_f",
+    "max_humidity",
+    "mean_humidity",
+    "min_humidity",
+    "max_sea_level_pressure_inches",
+    "mean_sea_level_pressure_inches",
+    "min_sea_level_pressure_inches",
+    "max_visibility_miles",
+    "mean_visibility_miles",
+    "min_visibility_miles",
+    "max_wind_speed_mph",
+    "mean_wind_speed_mph",
+    "max_gust_speed_mph",
+    "precipitation_inches",
+    "cloud_cover",
+    "wind_dir_degrees",
+    "precipitation_trace",
+    "weather_fog",
+    "weather_rain",
+    "weather_thunder",
+    "is_business_day",
+    "is_inter_cluster",
+    "before_oct_2013"
+  ],
+  "categorical_features": [
+    "start_hour",
+    "day_of_week",
+    "month",
+    "start_cluster",
+    "end_cluster",
+    "weather_events",
+    "rider_locality"
+  ],
+  "source_sha256": "071a607ce3cbe94d4d54c4c19e0f0b97593394cb4effacaaa2df38f8e03edef6",
+  "feature_settings_sha256": "c5eee2abf83ed4f9421f881487a9594e4c7085169247e669964342169d8f0339",
+  "input_hashes": {
+    "train.parquet/part-00000.parquet": "b0ed7ca78a57d336f4e0c9a35f7ffaeb85ca375a6f98cb98e6d7848bef6e133b"
+  },
+  "imported_settings_sha256": null,
+  "role_hashes": {
+    "42": "9e17c1a1ab35b6417a3c217f01176106ef333020a79ed8b26b78486e25d743f5"
+  },
+  "candidate_grid": {
+    "P6": [
+      {
+        "interactions": 0,
+        "max_rounds": 500,
+        "learning_rate": 0.03,
+        "max_bins": 128,
+        "min_samples_leaf": 20
+      },
+      {
+        "interactions": 8,
+        "max_rounds": 500,
+        "learning_rate": 0.03,
+        "max_bins": 128,
+        "min_samples_leaf": 20
+      }
+    ],
+    "P7": [
+      {
+        "iterations": 400,
+        "depth": 6,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3.0
+      },
+      {
+        "iterations": 400,
+        "depth": 8,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3.0
+      }
+    ]
+  },
+  "parameters_selected_using_test": false,
+  "selection": "training_cross_validation",
+  "full_data_final_refit": false,
+  "technical_verification": true,
+  "class_weighting": "N/(2*N_class), recomputed within every fit",
+  "threads": 2,
+  "ebm_final_fit": "All supplied fitting rows; validation_size=0, outer_bags=1, fixed round budget",
+  "dependencies": {
+    "catboost": "1.2.8",
+    "interpret-core": "0.7.5",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "pyarrow": "19.0.1",
+    "joblib": "1.4.2"
+  }
+}

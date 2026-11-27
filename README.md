@@ -2,9 +2,21 @@
 
 Customer-versus-Subscriber classification using Scala/Spark MLlib and a documented 10,354-row Python/XGBoost reconstruction of the reference experiment.
 
+Additional FM, quantile-binned Naive Bayes, EBM and CatBoost implementations are
+available in [supplemental experiments](supplemental/README.md), with an isolated
+compiler, full-data launchers, training-only selection and saved-result audits.
+These additions do not alter the historical P1-P3 experiment code. Their
+verification and scientific performance results must be reported separately.
+
 ## Current state
 
-Snapshot: **November 7, 2026**. [PROJECT_STATE.md](PROJECT_STATE.md) gives completed work, measured results, limitations, and next experiments. [The experiment ledger](experiments/LEDGER.md) documents **29 run folders** and **96 saved aggregate model outcomes**, including technical checks and incomplete attempts.
+Snapshot: **November 26, 2026**. [PROJECT_STATE.md](PROJECT_STATE.md) distinguishes historical results from the latest full-data experiments. [The experiment ledger](experiments/LEDGER.md) documents **36 run folders** and **120 saved aggregate outcomes**, including explicitly labeled synthetic checks and incomplete attempts. The completed [full-data supplemental comparison](validation/additional_models_20261126/FULL_DATA_RESULTS.md) adds twelve independently audited outcomes: mean F0.5 is 0.874431 for FM, 0.773744 for Naive Bayes, 0.886242 for EBM and 0.888252 for CatBoost. These are initial presets; the existing P1 reference remains higher at 0.891818. The table below summarizes the earlier historical scientific results.
+
+A new [matched full-data tuning study](supplemental/matched/README.md) is running:
+P1, EBM, CatBoost, LightGBM, XGBoost and a cross-fitted P1/EBM/CatBoost stack.
+Its end-to-end synthetic verification passed. Scientific tuned scores remain
+pending. Run or resume with `.\run-matched-tuning.ps1 -OutputDir results\matched-tuned39`
+after restoring the private inputs and installing its pinned dependencies.
 
 | Procedure | Evaluation population | Mean Customer F0.5 |
 |---|---|---:|

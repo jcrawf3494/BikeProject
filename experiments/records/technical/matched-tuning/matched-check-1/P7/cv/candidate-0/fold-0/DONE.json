@@ -1,0 +1,33 @@
+{
+  "model": "P7",
+  "seed": 42,
+  "training_rows": 536,
+  "evaluation_rows": 269,
+  "fit_seconds": 0.813757500029169,
+  "parameters": {
+    "iterations": 15,
+    "depth": 2,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3.0,
+    "bootstrap_type": "MVS",
+    "subsample": 0.8
+  },
+  "effective_parameters": {
+    "bootstrap_type": "MVS",
+    "depth": 2,
+    "l2_leaf_reg": 3,
+    "n_jobs": null,
+    "validation_size": null,
+    "thread_count": null,
+    "learning_rate": 0.05000000074505806,
+    "subsample": 0.800000011920929,
+    "iterations": 15,
+    "outer_bags": null
+  },
+  "class_weights": {
+    "Subscriber": 0.6617283950617284,
+    "Customer": 2.045801526717557
+  },
+  "model_reload_verified": false,
+  "threshold": 0.5
+}

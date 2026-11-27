@@ -1,0 +1,33 @@
+{
+  "tp": 66,
+  "fp": 0,
+  "fn": 0,
+  "tn": 174,
+  "evaluation_rows": 240,
+  "customer_f0_5": 1.0,
+  "customer_precision": 1.0,
+  "customer_recall": 1.0,
+  "accuracy": 1.0,
+  "model": "P1",
+  "seed": 42,
+  "training_rows": 1200,
+  "feature_count": 39,
+  "calibration_rows": 193,
+  "decision_threshold": 0.4999999999999999,
+  "parameters": {
+    "maxDepth": 2,
+    "maxIter": 3,
+    "stepSize": 0.03,
+    "minInstancesPerNode": 2
+  },
+  "final_fit_seconds": 2.100584,
+  "calibration_fit_seconds": 2.0732549,
+  "area_under_pr": 1.0,
+  "model_reload_verified": true,
+  "evaluation_scope": "synthetic_holdout",
+  "technical_verification": true,
+  "class_weighting": "N/(2*N_class)",
+  "training_pool_downsampled": false,
+  "calibration_split_seed": 42,
+  "initialization_seed": 42
+}

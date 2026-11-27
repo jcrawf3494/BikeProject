@@ -36,6 +36,26 @@ python baseline/prepare_paper_locality.py --trip-archive PATH-TO-ORIGINAL-DATA.z
 
 The mapping stores trip ID and the derived local/outside/missing category, not raw postal values. Both the mapping and original archive remain private.
 
+The revised Spark profile adds this category as `rider_locality` and derives
+`before_oct_2013` from the verified local trip date. These additions preserve
+the complete original split and do not filter trips. See
+[full-data and matched-input evaluation](../docs/FINAL_EVALUATION.md) for the
+preparation commands. Its local layout extends the tree above:
+
+```text
+data/
+  paper_flags_full/enriched/train.parquet/   # all 536,406 original training trips, 39 inputs
+  paper_flags_full/enriched/test.parquet/    # all 133,553 original test trips
+  pfc/similarity/seed-{42,43,44}/enriched/   # 10,354 saved training IDs; same full test
+  pfc/stratified/seed-{42,43,44}/enriched/   # 10,354 saved training IDs; same full test
+```
+
+The saved sampled IDs come from the private reconstruction outputs, never the
+test population. Similarity selection changes the class mix. The stratified
+control approximately preserves it. Raw manifests may call the fraction of a
+supplied sample 1.0; this means all 10,354 cohort rows, not all 536,406 original
+training trips. Public normalized records identify the external sampling.
+
 Supply the original saved Spark fold assignments through `--validation-folds`, or place a single Parquet table with `id`, `label`, and `cv_fold` under `data/validation_folds.parquet`. It must cover the whole original training pool exactly once, with fold values 0/1/2 and matching labels. The reconstruction holds fold 0 out during development.
 
 Raw predictions, sample IDs, scoring IDs, and fitted models are local execution artifacts. Use the independent audit tools before exporting aggregate results. CI does not recreate private datasets from aggregate records.

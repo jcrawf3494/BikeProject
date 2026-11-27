@@ -1,0 +1,33 @@
+{
+  "model": "P9",
+  "seed": 42,
+  "training_rows": 537,
+  "evaluation_rows": 268,
+  "fit_seconds": 0.02435020008124411,
+  "parameters": {
+    "n_estimators": 25,
+    "max_depth": 3,
+    "learning_rate": 0.03,
+    "min_child_weight": 10,
+    "reg_lambda": 5.0
+  },
+  "effective_parameters": {
+    "bootstrap_type": null,
+    "max_depth": 3,
+    "n_jobs": 2,
+    "validation_size": null,
+    "thread_count": null,
+    "learning_rate": 0.03,
+    "n_estimators": 25,
+    "outer_bags": null,
+    "subsample": 1.0,
+    "min_child_weight": 10,
+    "reg_lambda": 5.0
+  },
+  "class_weights": {
+    "Subscriber": 0.662962962962963,
+    "Customer": 2.034090909090909
+  },
+  "model_reload_verified": false,
+  "threshold": 0.5
+}

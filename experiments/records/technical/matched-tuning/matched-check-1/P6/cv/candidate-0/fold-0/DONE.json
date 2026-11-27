@@ -1,0 +1,33 @@
+{
+  "model": "P6",
+  "seed": 42,
+  "training_rows": 536,
+  "evaluation_rows": 269,
+  "fit_seconds": 0.153396200039424,
+  "parameters": {
+    "interactions": 0,
+    "max_rounds": 15,
+    "learning_rate": 0.03,
+    "max_bins": 32,
+    "min_samples_leaf": 4
+  },
+  "effective_parameters": {
+    "bootstrap_type": null,
+    "interactions": 0,
+    "n_jobs": 1,
+    "validation_size": 0,
+    "thread_count": null,
+    "min_samples_leaf": 4,
+    "learning_rate": 0.03,
+    "subsample": null,
+    "max_bins": 32,
+    "outer_bags": 1,
+    "max_rounds": 15
+  },
+  "class_weights": {
+    "Subscriber": 0.6617283950617284,
+    "Customer": 2.045801526717557
+  },
+  "model_reload_verified": false,
+  "threshold": 0.5
+}

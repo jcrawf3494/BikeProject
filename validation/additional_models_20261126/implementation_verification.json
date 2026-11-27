@@ -1,0 +1,31 @@
+{
+  "verified_date": "2026-11-26",
+  "models": [
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+  ],
+  "synthetic_end_to_end_passed": true,
+  "independent_prediction_audit_passed": true,
+  "spark_cv_checks_passed": true,
+  "python_cv_checks_passed": true,
+  "scientific_full_data_outcomes": 0,
+  "original_p1_p3_source_unchanged": true,
+  "current_scala_source_sha256": "168f25a4b21075ad0ef1efd72e3cd172154530a2b445b67e59cb0c155464dbcd",
+  "smoke_scala_source_sha256": "2de62cc4e521126962e473e4ab98be0c376de56109124c364cb0b7cc274beb14",
+  "python_source_sha256": "071a607ce3cbe94d4d54c4c19e0f0b97593394cb4effacaaa2df38f8e03edef6",
+  "verification_runs": [
+    "smoke-2026-11-26T05-20-55-638822700Z-f4e23d0c",
+    "smoke-additional-20261126T052406Z-ead0d928",
+    "tune-2026-11-26T05-26-54-890370400Z-f360f2e1",
+    "tune-additional-20261126T052513Z-820382e1"
+  ],
+  "unit_tests": 4,
+  "runtime": "Spark3.5.9/Scala2.12.18/Java11; pinned additional Python environment",
+  "limits": [
+    "FM fitting is unweighted under this installed optimizer.",
+    "All archived scores here are synthetic technical checks, not project performance.",
+    "Full-data launchers use predeclared presets unless training-CV settings are imported."
+  ]
+}

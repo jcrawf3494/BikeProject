@@ -13,8 +13,8 @@ class PublicRecordsTests(unittest.TestCase):
     def test_public_tree_and_all_aggregate_arithmetic(self):
         report = checks.inspect_tree()
         self.assertEqual(report['findings'], [], '\n'.join(report['findings']))
-        self.assertEqual(report['run_folders'], 29)
-        self.assertEqual(report['model_results'], 96)
+        self.assertEqual(report['run_folders'], 36)
+        self.assertEqual(report['model_results'], 120)
         self.assertGreater(report['aggregate_metric_records_checked'], 100)
 
     def test_reconstruction_protocols_keep_distinct_populations(self):

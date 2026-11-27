@@ -1,0 +1,159 @@
+{
+  "completed_runs": 12,
+  "training_rows": 536406,
+  "test_rows": 133553,
+  "feature_count": 39,
+  "parameter_selection": "predeclared presets; no scientific CV retuning yet",
+  "p1_reference_mean_f0_5": 0.891817647270255,
+  "models": [
+    {
+      "model": "P4",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "customer_f0_5": {
+          "mean": 0.8744313942552037,
+          "sample_sd": 8.511590456249397e-05
+        },
+        "customer_precision": {
+          "mean": 0.957345929244751,
+          "sample_sd": 0.004109242523992506
+        },
+        "customer_recall": {
+          "mean": 0.6495198571635381,
+          "sample_sd": 0.007392241722844152
+        },
+        "accuracy": {
+          "mean": 0.9411220015025246,
+          "sample_sd": 0.000646300071392798
+        },
+        "final_fit_seconds": {
+          "mean": 1032.7681778333333,
+          "sample_sd": 467.90851581318674
+        },
+        "threshold_selection_seconds": {
+          "mean": 7236.875273333333,
+          "sample_sd": 10317.212429625224
+        }
+      },
+      "difference_from_P1_mean": -0.017386253015051367
+    },
+    {
+      "model": "P5",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "customer_f0_5": {
+          "mean": 0.7737437762522341,
+          "sample_sd": 0.0006225374220735829
+        },
+        "customer_precision": {
+          "mean": 0.8954752164411283,
+          "sample_sd": 0.015281670403137028
+        },
+        "customer_recall": {
+          "mean": 0.501954350238865,
+          "sample_sd": 0.019930948929598544
+        },
+        "accuracy": {
+          "mean": 0.913572389488318,
+          "sample_sd": 0.0012595384605670785
+        },
+        "final_fit_seconds": {
+          "mean": 50.105520166666665,
+          "sample_sd": 22.0220946506766
+        },
+        "threshold_selection_seconds": {
+          "mean": 85.1160977,
+          "sample_sd": 33.98386233166113
+        }
+      },
+      "difference_from_P1_mean": -0.11807387101802092
+    },
+    {
+      "model": "P6",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "customer_f0_5": {
+          "mean": 0.8862423391473739,
+          "sample_sd": 0.00017945147629397557
+        },
+        "customer_precision": {
+          "mean": 0.956137976152372,
+          "sample_sd": 0.0014599680201707796
+        },
+        "customer_recall": {
+          "mean": 0.6857436986279335,
+          "sample_sd": 0.0034003339958432843
+        },
+        "accuracy": {
+          "mean": 0.9463558786898585,
+          "sample_sd": 0.0003353882907975485
+        },
+        "final_fit_seconds": {
+          "mean": 52.01842386671342,
+          "sample_sd": 3.0264214405913026
+        },
+        "threshold_selection_seconds": {
+          "mean": 48.81414916665138,
+          "sample_sd": 6.09580663762582
+        }
+      },
+      "difference_from_P1_mean": -0.005575308122881095
+    },
+    {
+      "model": "P7",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "customer_f0_5": {
+          "mean": 0.8882517776147371,
+          "sample_sd": 0.0011770873849349882
+        },
+        "customer_precision": {
+          "mean": 0.9595552684226172,
+          "sample_sd": 0.009540953390923158
+        },
+        "customer_recall": {
+          "mean": 0.6853093985748524,
+          "sample_sd": 0.021706010960052344
+        },
+        "accuracy": {
+          "mean": 0.9466578811408205,
+          "sample_sd": 0.002126536144010487
+        },
+        "final_fit_seconds": {
+          "mean": 327.08814763332094,
+          "sample_sd": 2.8711819544518793
+        },
+        "threshold_selection_seconds": {
+          "mean": 293.12003073336865,
+          "sample_sd": 7.79335119920277
+        }
+      },
+      "difference_from_P1_mean": -0.0035658696555179725
+    }
+  ],
+  "independent_audit_passed": true,
+  "input_hashes_verified": true,
+  "shared_calibration_memberships_verified": true,
+  "limits": [
+    "Previously examined fixed project benchmark.",
+    "P1 parameters originate in earlier training CV; supplemental presets have not been tuned.",
+    "FM optimization is unweighted; other supplemental models are weighted.",
+    "Local elapsed times are observational and can be affected by pauses or system load."
+  ]
+}

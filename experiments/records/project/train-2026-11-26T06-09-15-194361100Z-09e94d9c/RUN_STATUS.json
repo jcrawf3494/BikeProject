@@ -1,0 +1,18 @@
+{
+  "run_id": "train-2026-11-26T06-09-15-194361100Z-09e94d9c",
+  "source_scope": "project/full_data_supplemental_presets",
+  "status": "completed",
+  "kind": "experiment",
+  "models": [
+    "P4",
+    "P5"
+  ],
+  "training_pool_rows": 536406,
+  "feature_scope": "39 paper-input features; historical V1",
+  "feature_variant": "standard",
+  "search_budget": "predeclared_presets_not_tuned",
+  "aggregate_record_directory": "experiments/records/project/train-2026-11-26T06-09-15-194361100Z-09e94d9c",
+  "aggregate_record_count": 21,
+  "measured_result_count": 6,
+  "notes": "Completed full-data supplemental presets, three seeds each. Same full test and calibration memberships. FM unweighted; NB/EBM/CatBoost weighted. Independently audited. Cleanup/resource-tracker messages did not prevent completion."
+}

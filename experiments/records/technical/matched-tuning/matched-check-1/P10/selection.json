@@ -1,0 +1,17 @@
+[
+  {
+    "C": 0.001,
+    "selection_f0_5": 1.0,
+    "selected": true
+  },
+  {
+    "C": 0.1,
+    "selection_f0_5": 1.0,
+    "selected": false
+  },
+  {
+    "C": 10.0,
+    "selection_f0_5": 1.0,
+    "selected": false
+  }
+]

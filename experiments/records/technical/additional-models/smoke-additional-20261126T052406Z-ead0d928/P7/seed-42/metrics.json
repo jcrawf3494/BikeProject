@@ -1,0 +1,51 @@
+{
+  "tp": 83,
+  "fp": 0,
+  "fn": 0,
+  "tn": 254,
+  "evaluation_rows": 337,
+  "customer_f0_5": 1.0,
+  "customer_precision": 1.0,
+  "customer_recall": 1.0,
+  "accuracy": 1.0,
+  "model": "P7",
+  "model_family": "catboost_gradient_boosted_trees",
+  "seed": 42,
+  "training_rows": 863,
+  "feature_count": 39,
+  "model_selection_rows": 670,
+  "calibration_rows": 193,
+  "evaluation_scope": "synthetic_training_holdout",
+  "technical_verification": true,
+  "parameter_selection": "predeclared_preset_not_tuned",
+  "parameters": {
+    "iterations": 400,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3.0
+  },
+  "effective_parameters": {
+    "iterations": 25,
+    "learning_rate": 0.05,
+    "depth": 3,
+    "l2_leaf_reg": 3.0,
+    "thread_count": 2,
+    "random_seed": 42
+  },
+  "decision_threshold": 0.5223424242243484,
+  "area_under_pr": 1.0,
+  "pr_area_definition": "Exact sklearn precision-recall curve trapezoidal area",
+  "final_fit_seconds": 2.2346356000052765,
+  "threshold_selection_seconds": 4.243755999952555,
+  "class_weighting": "N/(2*N_class)",
+  "calibration_fit_weights": {
+    "Subscriber": 0.6620553359683794,
+    "Customer": 2.042682926829268
+  },
+  "final_fit_weights": {
+    "Subscriber": 0.6618098159509203,
+    "Customer": 2.0450236966824646
+  },
+  "model_reload_verified": true,
+  "test_used_for_selection": false
+}

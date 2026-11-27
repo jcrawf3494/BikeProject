@@ -1,0 +1,35 @@
+{
+  "model": "P8",
+  "seed": 42,
+  "training_rows": 537,
+  "evaluation_rows": 268,
+  "fit_seconds": 0.008552400046028197,
+  "parameters": {
+    "n_estimators": 15,
+    "num_leaves": 7,
+    "learning_rate": 0.05,
+    "min_child_samples": 4,
+    "reg_lambda": 1.0,
+    "max_bin": 127
+  },
+  "effective_parameters": {
+    "bootstrap_type": null,
+    "max_bin": 127,
+    "min_child_samples": 4,
+    "n_jobs": 2,
+    "validation_size": null,
+    "thread_count": null,
+    "num_leaves": 7,
+    "learning_rate": 0.05,
+    "n_estimators": 15,
+    "subsample": 1.0,
+    "outer_bags": null,
+    "reg_lambda": 1.0
+  },
+  "class_weights": {
+    "Subscriber": 0.662962962962963,
+    "Customer": 2.034090909090909
+  },
+  "model_reload_verified": false,
+  "threshold": 0.5
+}

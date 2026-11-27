@@ -1,0 +1,47 @@
+{
+  "model": "P7 CatBoost",
+  "training_input_rows": 536406,
+  "external_training_downsampling": false,
+  "cases": [
+    {
+      "seed": 42,
+      "parameters": {
+        "iterations": 400,
+        "grow_policy": "SymmetricTree",
+        "boosting_type": "Plain",
+        "l2_leaf_reg": 3,
+        "subsample": 0.800000011920929,
+        "depth": 6,
+        "learning_rate": 0.05000000074505806,
+        "bootstrap_type": "MVS"
+      }
+    },
+    {
+      "seed": 43,
+      "parameters": {
+        "iterations": 400,
+        "grow_policy": "SymmetricTree",
+        "boosting_type": "Plain",
+        "l2_leaf_reg": 3,
+        "subsample": 0.800000011920929,
+        "depth": 6,
+        "learning_rate": 0.05000000074505806,
+        "bootstrap_type": "MVS"
+      }
+    },
+    {
+      "seed": 44,
+      "parameters": {
+        "iterations": 400,
+        "grow_policy": "SymmetricTree",
+        "boosting_type": "Plain",
+        "l2_leaf_reg": 3,
+        "subsample": 0.800000011920929,
+        "depth": 6,
+        "learning_rate": 0.05000000074505806,
+        "bootstrap_type": "MVS"
+      }
+    }
+  ],
+  "note": "MVS samples approximately80% of the full fitting population internally per boosting iteration; all536406 original training rows were supplied to fit. P1 subsamplingRate was1.0."
+}

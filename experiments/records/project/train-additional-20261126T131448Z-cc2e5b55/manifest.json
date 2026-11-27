@@ -1,0 +1,120 @@
+{
+  "started_utc": "2026-11-26T13:14:48.449760+00:00",
+  "mode": "train",
+  "models": [
+    "P6",
+    "P7"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "train_rows": 536406,
+  "test_rows": 133553,
+  "numeric_features": [
+    "duration_sec",
+    "is_weekend",
+    "is_holiday",
+    "is_round_trip",
+    "max_temperature_f",
+    "mean_temperature_f",
+    "min_temperature_f",
+    "max_dew_point_f",
+    "mean_dew_point_f",
+    "min_dew_point_f",
+    "max_humidity",
+    "mean_humidity",
+    "min_humidity",
+    "max_sea_level_pressure_inches",
+    "mean_sea_level_pressure_inches",
+    "min_sea_level_pressure_inches",
+    "max_visibility_miles",
+    "mean_visibility_miles",
+    "min_visibility_miles",
+    "max_wind_speed_mph",
+    "mean_wind_speed_mph",
+    "max_gust_speed_mph",
+    "precipitation_inches",
+    "cloud_cover",
+    "wind_dir_degrees",
+    "precipitation_trace",
+    "weather_fog",
+    "weather_rain",
+    "weather_thunder",
+    "is_business_day",
+    "is_inter_cluster",
+    "before_oct_2013"
+  ],
+  "categorical_features": [
+    "start_hour",
+    "day_of_week",
+    "month",
+    "start_cluster",
+    "end_cluster",
+    "weather_events",
+    "rider_locality"
+  ],
+  "source_sha256": "071a607ce3cbe94d4d54c4c19e0f0b97593394cb4effacaaa2df38f8e03edef6",
+  "feature_settings_sha256": "c5eee2abf83ed4f9421f881487a9594e4c7085169247e669964342169d8f0339",
+  "input_hashes": {
+    "train.parquet/part-00000-7c47fd7d-0d8e-41fb-8330-25ee9603c818-c000.snappy.parquet": "76f2e57f70a04216955808b8922d85ac3f041c5fdfdc3b614feccfb87879bd52",
+    "train.parquet/part-00001-7c47fd7d-0d8e-41fb-8330-25ee9603c818-c000.snappy.parquet": "c67a04f4c16be1a0e7503fa4004b4843ff2bb5ff0870331d28b7155fc654827c",
+    "test.parquet/part-00000-59db029a-3e43-4313-a5a2-bc33476d7b60-c000.snappy.parquet": "73835fb9cf254bde3b039294bfdf287a3c0a43663a18b6c164b3349ef553afb6",
+    "test.parquet/part-00001-59db029a-3e43-4313-a5a2-bc33476d7b60-c000.snappy.parquet": "7ac6220f90677791d3ef0bacaa36bf66192070b39033951f5c8af4a42340a4c2"
+  },
+  "imported_settings_sha256": null,
+  "role_hashes": {
+    "42": "de3b96091e6cba7d506719d112bbe39884421047a274327da32756a9e2058999",
+    "43": "9fe24a6f573f187b71f8353a1411984b55dca21ca251d90e33de4943405b3e7f",
+    "44": "8f8b92694e22aba82abd05cad3cf584df6e63d383f82832015140be18156681c"
+  },
+  "candidate_grid": {
+    "P6": [
+      {
+        "interactions": 0,
+        "max_rounds": 500,
+        "learning_rate": 0.03,
+        "max_bins": 128,
+        "min_samples_leaf": 20
+      },
+      {
+        "interactions": 8,
+        "max_rounds": 500,
+        "learning_rate": 0.03,
+        "max_bins": 128,
+        "min_samples_leaf": 20
+      }
+    ],
+    "P7": [
+      {
+        "iterations": 400,
+        "depth": 6,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3.0
+      },
+      {
+        "iterations": 400,
+        "depth": 8,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3.0
+      }
+    ]
+  },
+  "parameters_selected_using_test": false,
+  "selection": "predeclared_preset_not_tuned",
+  "full_data_final_refit": true,
+  "technical_verification": false,
+  "class_weighting": "N/(2*N_class), recomputed within every fit",
+  "threads": 2,
+  "ebm_final_fit": "All supplied fitting rows; validation_size=0, outer_bags=1, fixed round budget",
+  "dependencies": {
+    "catboost": "1.2.8",
+    "interpret-core": "0.7.5",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "pyarrow": "19.0.1",
+    "joblib": "1.4.2"
+  }
+}
