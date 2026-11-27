@@ -1,0 +1,36 @@
+[
+  {
+    "candidate": 0,
+    "parameters": {
+      "interactions": 0,
+      "max_rounds": 500,
+      "learning_rate": 0.03,
+      "max_bins": 128,
+      "min_samples_leaf": 20
+    },
+    "fold_f0_5": [
+      0.8983050847457628,
+      0.8865248226950354,
+      0.9358974358974359
+    ],
+    "mean_f0_5": 0.9069091144460781,
+    "selected": true
+  },
+  {
+    "candidate": 1,
+    "parameters": {
+      "interactions": 8,
+      "max_rounds": 500,
+      "learning_rate": 0.03,
+      "max_bins": 128,
+      "min_samples_leaf": 20
+    },
+    "fold_f0_5": [
+      0.8983050847457628,
+      0.8865248226950354,
+      0.9358974358974359
+    ],
+    "mean_f0_5": 0.9069091144460781,
+    "selected": false
+  }
+]

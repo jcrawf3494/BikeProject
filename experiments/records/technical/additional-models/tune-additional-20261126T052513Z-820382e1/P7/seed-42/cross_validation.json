@@ -1,0 +1,34 @@
+[
+  {
+    "candidate": 0,
+    "parameters": {
+      "iterations": 400,
+      "depth": 6,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 3.0
+    },
+    "fold_f0_5": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_f0_5": 1.0,
+    "selected": true
+  },
+  {
+    "candidate": 1,
+    "parameters": {
+      "iterations": 400,
+      "depth": 8,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 3.0
+    },
+    "fold_f0_5": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_f0_5": 1.0,
+    "selected": false
+  }
+]

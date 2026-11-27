@@ -1,0 +1,25 @@
+[ {
+  "selected" : true,
+  "mean_customer_f0_5" : 0.9289085677654039,
+  "selection_metric" : "mean_fold_best_threshold_customer_f0_5",
+  "parameters" : {
+    "smoothing" : "0.1"
+  },
+  "candidate" : 0
+}, {
+  "selected" : false,
+  "mean_customer_f0_5" : 0.8596467764824763,
+  "selection_metric" : "mean_fold_best_threshold_customer_f0_5",
+  "parameters" : {
+    "smoothing" : "1.0"
+  },
+  "candidate" : 1
+}, {
+  "selected" : false,
+  "mean_customer_f0_5" : 0.8431480493574242,
+  "selection_metric" : "mean_fold_best_threshold_customer_f0_5",
+  "parameters" : {
+    "smoothing" : "2.0"
+  },
+  "candidate" : 2
+} ]

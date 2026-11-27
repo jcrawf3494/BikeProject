@@ -1,0 +1,53 @@
+[
+  {
+    "candidate": 0,
+    "parameters": {
+      "interactions": 0,
+      "max_rounds": 15,
+      "learning_rate": 0.03,
+      "max_bins": 32,
+      "min_samples_leaf": 4
+    },
+    "fold_f0_5": [
+      0.8774834437086093,
+      0.8298755186721992,
+      0.8576642335766423
+    ],
+    "mean_f0_5": 0.8550077319858169,
+    "selected": false
+  },
+  {
+    "candidate": 1,
+    "parameters": {
+      "interactions": 1,
+      "max_rounds": 20,
+      "learning_rate": 0.03,
+      "max_bins": 32,
+      "min_samples_leaf": 4
+    },
+    "fold_f0_5": [
+      0.9433962264150944,
+      0.9259259259259259,
+      0.9693877551020408
+    ],
+    "mean_f0_5": 0.9462366358143536,
+    "selected": true
+  },
+  {
+    "candidate": 2,
+    "parameters": {
+      "interactions": 2,
+      "max_rounds": 25,
+      "learning_rate": 0.02,
+      "max_bins": 32,
+      "min_samples_leaf": 4
+    },
+    "fold_f0_5": [
+      0.905511811023622,
+      0.8685446009389671,
+      0.8913043478260869
+    ],
+    "mean_f0_5": 0.8884535865962254,
+    "selected": false
+  }
+]

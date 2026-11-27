@@ -1,0 +1,18 @@
+{
+  "run_id": "tune-2026-11-26T05-26-54-890370400Z-f360f2e1",
+  "source_scope": "technical/additional-models",
+  "status": "completed",
+  "kind": "technical_verification",
+  "models": [
+    "P4",
+    "P5"
+  ],
+  "training_pool_rows": 1200,
+  "feature_scope": "39-column synthetic fixture",
+  "feature_variant": "standard",
+  "search_budget": "technical_check",
+  "aggregate_record_directory": "experiments/records/technical/additional-models/tune-2026-11-26T05-26-54-890370400Z-f360f2e1",
+  "aggregate_record_count": 12,
+  "measured_result_count": 2,
+  "notes": "Synthetic fixture only: implementation, persistence, calibration and CV checks. Scores do not measure bike-share performance. Python tuning records contain selection diagnostics without a final scoring outcome."
+}

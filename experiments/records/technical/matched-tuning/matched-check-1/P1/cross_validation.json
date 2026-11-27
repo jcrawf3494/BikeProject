@@ -1,0 +1,50 @@
+[
+  {
+    "candidate": 0,
+    "parameters": {
+      "maxDepth": 2,
+      "maxIter": 3,
+      "stepSize": 0.03,
+      "minInstancesPerNode": 2
+    },
+    "fold_f0_5": [
+      0.9880239520958084,
+      1.0,
+      1.0
+    ],
+    "mean_f0_5": 0.9960079840319361,
+    "selected": true
+  },
+  {
+    "candidate": 1,
+    "parameters": {
+      "maxDepth": 2,
+      "maxIter": 5,
+      "stepSize": 0.05,
+      "minInstancesPerNode": 2
+    },
+    "fold_f0_5": [
+      0.9880239520958084,
+      1.0,
+      1.0
+    ],
+    "mean_f0_5": 0.9960079840319361,
+    "selected": false
+  },
+  {
+    "candidate": 2,
+    "parameters": {
+      "maxDepth": 3,
+      "maxIter": 7,
+      "stepSize": 0.05,
+      "minInstancesPerNode": 2
+    },
+    "fold_f0_5": [
+      0.9880239520958084,
+      1.0,
+      1.0
+    ],
+    "mean_f0_5": 0.9960079840319361,
+    "selected": false
+  }
+]

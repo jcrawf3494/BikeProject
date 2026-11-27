@@ -1,0 +1,32 @@
+{
+  "model": "P7",
+  "seed": 42,
+  "training_rows": 537,
+  "evaluation_rows": 268,
+  "fit_seconds": 0.9010986000066623,
+  "parameters": {
+    "iterations": 25,
+    "depth": 3,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 5.0,
+    "bootstrap_type": "No"
+  },
+  "effective_parameters": {
+    "bootstrap_type": "No",
+    "depth": 3,
+    "l2_leaf_reg": 5,
+    "n_jobs": null,
+    "validation_size": null,
+    "thread_count": null,
+    "learning_rate": 0.029999999329447743,
+    "subsample": null,
+    "iterations": 25,
+    "outer_bags": null
+  },
+  "class_weights": {
+    "Subscriber": 0.662962962962963,
+    "Customer": 2.034090909090909
+  },
+  "model_reload_verified": false,
+  "threshold": 0.5
+}

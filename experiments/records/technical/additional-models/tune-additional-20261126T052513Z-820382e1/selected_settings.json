@@ -1,0 +1,70 @@
+{
+  "selected_by": "training_cross_validation",
+  "numeric_features": [
+    "duration_sec",
+    "is_weekend",
+    "is_holiday",
+    "is_round_trip",
+    "max_temperature_f",
+    "mean_temperature_f",
+    "min_temperature_f",
+    "max_dew_point_f",
+    "mean_dew_point_f",
+    "min_dew_point_f",
+    "max_humidity",
+    "mean_humidity",
+    "min_humidity",
+    "max_sea_level_pressure_inches",
+    "mean_sea_level_pressure_inches",
+    "min_sea_level_pressure_inches",
+    "max_visibility_miles",
+    "mean_visibility_miles",
+    "min_visibility_miles",
+    "max_wind_speed_mph",
+    "mean_wind_speed_mph",
+    "max_gust_speed_mph",
+    "precipitation_inches",
+    "cloud_cover",
+    "wind_dir_degrees",
+    "precipitation_trace",
+    "weather_fog",
+    "weather_rain",
+    "weather_thunder",
+    "is_business_day",
+    "is_inter_cluster",
+    "before_oct_2013"
+  ],
+  "categorical_features": [
+    "start_hour",
+    "day_of_week",
+    "month",
+    "start_cluster",
+    "end_cluster",
+    "weather_events",
+    "rider_locality"
+  ],
+  "models": [
+    {
+      "model": "P6",
+      "parameters": {
+        "interactions": 0,
+        "max_rounds": 500,
+        "learning_rate": 0.03,
+        "max_bins": 128,
+        "min_samples_leaf": 20
+      }
+    },
+    {
+      "model": "P7",
+      "parameters": {
+        "iterations": 400,
+        "depth": 6,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3.0
+      }
+    }
+  ],
+  "selection_seed": 42,
+  "source_run": "tune-additional-20261126T052513Z-820382e1",
+  "technical_verification": true
+}

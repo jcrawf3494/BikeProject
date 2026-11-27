@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "audited_utc": "2026-11-26T19:50:03.400940+00:00",
+  "model_records": 6,
+  "technical_verification": true,
+  "cv_checks": [
+    {
+      "model": "P1",
+      "candidate_records": 3,
+      "fold_records": 9,
+      "all_fitting_ids_and_weights_verified": true
+    },
+    {
+      "model": "P6",
+      "candidate_records": 3,
+      "fold_records": 9,
+      "all_fitting_ids_and_weights_verified": true
+    },
+    {
+      "model": "P7",
+      "candidate_records": 3,
+      "fold_records": 9,
+      "all_fitting_ids_and_weights_verified": true
+    },
+    {
+      "model": "P8",
+      "candidate_records": 3,
+      "fold_records": 9,
+      "all_fitting_ids_and_weights_verified": true
+    },
+    {
+      "model": "P9",
+      "candidate_records": 3,
+      "fold_records": 9,
+      "all_fitting_ids_and_weights_verified": true
+    }
+  ],
+  "final_checks": [
+    {
+      "model": "P1",
+      "seed": 42,
+      "full_split_ids_labels_weights_and_cutoffs_verified": true
+    },
+    {
+      "model": "P6",
+      "seed": 42,
+      "full_split_ids_labels_weights_and_cutoffs_verified": true
+    },
+    {
+      "model": "P7",
+      "seed": 42,
+      "full_split_ids_labels_weights_and_cutoffs_verified": true
+    },
+    {
+      "model": "P8",
+      "seed": 42,
+      "full_split_ids_labels_weights_and_cutoffs_verified": true
+    },
+    {
+      "model": "P9",
+      "seed": 42,
+      "full_split_ids_labels_weights_and_cutoffs_verified": true
+    },
+    {
+      "model": "P10",
+      "seed": 42,
+      "meta_selection_holdout_excluded_from_base_cv": true,
+      "all_meta_features_out_of_fit": true,
+      "combiner_refit_all_training_rows": true,
+      "all_predictions_reproduced": true
+    }
+  ],
+  "input_and_source_hashes_unchanged": true,
+  "stacking_boundaries_and_all_meta_predictions_verified": true,
+  "settings_frozen_before_test_prediction": true
+}

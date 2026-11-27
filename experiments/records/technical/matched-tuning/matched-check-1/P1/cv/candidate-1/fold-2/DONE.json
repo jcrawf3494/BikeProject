@@ -1,0 +1,23 @@
+{
+  "stage": "cv",
+  "evaluation_rows": 268,
+  "seed": 42,
+  "technical_verification": true,
+  "training_rows": 537,
+  "model_reload_verified": false,
+  "fold": 2,
+  "test_used_for_selection": false,
+  "fit_seconds": 0.8921278,
+  "threshold": 0.5,
+  "parameters": {
+    "maxDepth": "2",
+    "maxIter": "5",
+    "stepSize": "0.05",
+    "minInstancesPerNode": "2"
+  },
+  "candidate": 1,
+  "class_weights": {
+    "Customer": 2.049618320610687,
+    "Subscriber": 0.6613300492610837
+  }
+}

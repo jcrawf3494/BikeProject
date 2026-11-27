@@ -1,0 +1,56 @@
+{
+  "tp": 14132,
+  "fp": 624,
+  "fn": 6591,
+  "tn": 112206,
+  "evaluation_rows": 133553,
+  "customer_f0_5": 0.8860521398924097,
+  "customer_precision": 0.9577121171049064,
+  "customer_recall": 0.6819475944602615,
+  "accuracy": 0.9459765037101375,
+  "model": "P6",
+  "model_family": "explainable_boosting_machine_additive_model",
+  "seed": 44,
+  "training_rows": 536406,
+  "feature_count": 39,
+  "model_selection_rows": 455616,
+  "calibration_rows": 80790,
+  "evaluation_scope": "fixed_test",
+  "technical_verification": false,
+  "parameter_selection": "predeclared_preset_not_tuned",
+  "parameters": {
+    "interactions": 8,
+    "max_rounds": 500,
+    "learning_rate": 0.03,
+    "max_bins": 128,
+    "min_samples_leaf": 20
+  },
+  "effective_parameters": {
+    "early_stopping_rounds": 0,
+    "interactions": 8,
+    "learning_rate": 0.03,
+    "max_bins": 128,
+    "max_rounds": 500,
+    "min_samples_leaf": 20,
+    "n_jobs": 2,
+    "outer_bags": 1,
+    "random_state": 44,
+    "validation_size": 0
+  },
+  "decision_threshold": 0.943490290817947,
+  "area_under_pr": 0.8933233235233753,
+  "pr_area_definition": "Exact sklearn precision-recall curve trapezoidal area",
+  "final_fit_seconds": 51.9128535001073,
+  "threshold_selection_seconds": 47.61058570002206,
+  "class_weighting": "N/(2*N_class)",
+  "calibration_fit_weights": {
+    "Subscriber": 0.5908236227783297,
+    "Customer": 3.2525878439155327
+  },
+  "final_fit_weights": {
+    "Subscriber": 0.5908648296160524,
+    "Customer": 3.2513395563098557
+  },
+  "model_reload_verified": true,
+  "test_used_for_selection": false
+}

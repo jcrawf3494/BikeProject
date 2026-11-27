@@ -1,5 +1,24 @@
 # Project state
 
+Implementation update: **November 26, 2026**. Supplemental factorization machine
+(P4), quantile-binned Naive Bayes (P5), EBM (P6), and CatBoost (P7) implementations
+have been added with independent launchers and audits. All twelve full-data
+preset runs have now completed and passed independent saved-prediction checks.
+Three-seed mean F0.5: FM **0.874431**, Naive Bayes **0.773744**, EBM **0.886242**,
+CatBoost **0.888252**. The existing P1 reference mean **0.891818** remains higher.
+Every final fit retains all 536,406 training trips and evaluates the same 133,553
+test trips. See [the completed comparison](validation/additional_models_20261126/FULL_DATA_RESULTS.md)
+and [additional experiment instructions](supplemental/README.md).
+The historical experiment snapshot below predates these additions.
+
+A separate [matched 39-feature tuning study](supplemental/matched/README.md)
+started on November 26. It retunes P1, EBM and CatBoost, adds LightGBM and a
+matched full-data XGBoost control, and trains a cross-fitted P1/EBM/CatBoost stack.
+Its synthetic end-to-end run and independent boundary/prediction audit passed.
+Scientific training is in progress; no new tuned test score is claimed yet.
+The protocol specifies 45 base CV fits and 18 final outcomes, with every final
+fit retaining all 536,406 training trips. Historical results remain preserved.
+
 Snapshot: **November 7, 2026**. Latest saved model experiments: November 1, 2026. This snapshot publishes existing work and verification records; it does not claim new training results from the publication date.
 
 ## Objective and implemented methods
@@ -62,7 +81,7 @@ The registry contains 23 completed run folders, one partial run, one confirmed f
 
 The October 29 extended P1 attempt failed with task-serialization StackOverflowError. Enabling periodic checkpoints and increasing the Java thread stack was verified with a 240-iteration fixture. A subsequent all-model run has only P1 completion evidence; its interruption cause is unspecified. The October 30 all-model validation run completed.
 
-Full-data interaction searches, final three-seed test evaluation of the newest P1/P2/P3 settings, the frozen-setting data-volume study, matched-feature full-data versus sampled comparisons, and clean runtime benchmarks remain pending. Neural networks, factorization machines, and blends were discussed as supplemental possibilities but were not implemented or evaluated.
+At the historical snapshot, full-data interaction searches, final three-seed test evaluation of the newest P1/P2/P3 settings, the frozen-setting data-volume study, matched-feature comparisons, and clean runtime benchmarks were pending. The later full-data feature revision has seven saved outcomes: P1 and P3 each have three seeds, while P2 has one. The remaining P2 runs and matched-input controls are incomplete. The 10/25/50% volume study was canceled, and separate saved 10,354-row controls were authorized. Supplemental factorization machine, Naive Bayes, EBM and CatBoost implementations were subsequently added; neural networks and blends remain unimplemented.
 
 ## Runtime and validity limits
 

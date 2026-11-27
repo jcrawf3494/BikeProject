@@ -1,10 +1,8 @@
 # Experiment ledger
 
-Snapshot: November 7, 2026.
+Snapshot: 2026-11-26.
 
-Every located run folder appears below, including incomplete attempts. Fixture results validate execution and must not be used as project performance. The machine-readable registry contains every saved aggregate model result, and each run directory preserves its manifests, CV candidates, settings, and metrics.
-
-Runs: **29**. Completed: **23**; partial: **1**; failed: **1**; incomplete without a completion record: **4**.
+Archive: 36 run folders and 120 saved outcomes, including explicitly labeled synthetic verification. Matched tuning is a separate study from the incomplete older P1-P3 completion batch.
 
 | Run | Type | Status | Models | Saved results |
 |---|---|---|---|---:|
@@ -37,6 +35,13 @@ Runs: **29**. Completed: **23**; partial: **1**; failed: **1**; incomplete witho
 | [smoke-2026-10-27T17-40-14-364452500Z-b067dece](records/technical/scala-validation/smoke-2026-10-27T17-40-14-364452500Z-b067dece/RUN_STATUS.json) | technical_verification | incomplete | P3, P2, P1 | 0 |
 | [smoke-2026-10-27T17-48-08-828295600Z-f0eefd57](records/technical/v/smoke-2026-10-27T17-48-08-828295600Z-f0eefd57/RUN_STATUS.json) | technical_verification | completed | P3, P2, P1 | 3 |
 | [tune-2026-10-27T17-50-21-893424100Z-3e59d324](records/technical/v/tune-2026-10-27T17-50-21-893424100Z-3e59d324/RUN_STATUS.json) | technical_verification | completed | P3, P2, P1 | 3 |
+| [smoke-2026-11-26T05-20-55-638822700Z-f4e23d0c](records/technical/additional-models/smoke-2026-11-26T05-20-55-638822700Z-f4e23d0c/RUN_STATUS.json) | technical_verification | completed | P4, P5 | 2 |
+| [smoke-additional-20261126T052406Z-ead0d928](records/technical/additional-models/smoke-additional-20261126T052406Z-ead0d928/RUN_STATUS.json) | technical_verification | completed | P6, P7 | 2 |
+| [tune-2026-11-26T05-26-54-890370400Z-f360f2e1](records/technical/additional-models/tune-2026-11-26T05-26-54-890370400Z-f360f2e1/RUN_STATUS.json) | technical_verification | completed | P4, P5 | 2 |
+| [tune-additional-20261126T052513Z-820382e1](records/technical/additional-models/tune-additional-20261126T052513Z-820382e1/RUN_STATUS.json) | technical_verification | completed | P6, P7 | 0 |
+| [train-2026-11-26T06-09-15-194361100Z-09e94d9c](records/project/train-2026-11-26T06-09-15-194361100Z-09e94d9c/RUN_STATUS.json) | experiment | completed | P4, P5 | 6 |
+| [train-additional-20261126T131448Z-cc2e5b55](records/project/train-additional-20261126T131448Z-cc2e5b55/RUN_STATUS.json) | experiment | completed | P6, P7 | 6 |
+| [matched-check-1](records/technical/matched-tuning/matched-check-1/RUN_STATUS.json) | technical_verification | completed | P1, P6, P7, P8, P9, P10 | 6 |
 
 ## Reading the results
 

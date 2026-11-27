@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "technical_verification": true,
+  "feature_count": 39,
+  "numeric_features": [
+    "duration_sec",
+    "is_weekend",
+    "is_holiday",
+    "is_round_trip",
+    "max_temperature_f",
+    "mean_temperature_f",
+    "min_temperature_f",
+    "max_dew_point_f",
+    "mean_dew_point_f",
+    "min_dew_point_f",
+    "max_humidity",
+    "mean_humidity",
+    "min_humidity",
+    "max_sea_level_pressure_inches",
+    "mean_sea_level_pressure_inches",
+    "min_sea_level_pressure_inches",
+    "max_visibility_miles",
+    "mean_visibility_miles",
+    "min_visibility_miles",
+    "max_wind_speed_mph",
+    "mean_wind_speed_mph",
+    "max_gust_speed_mph",
+    "precipitation_inches",
+    "cloud_cover",
+    "wind_dir_degrees",
+    "precipitation_trace",
+    "weather_fog",
+    "weather_rain",
+    "weather_thunder",
+    "is_business_day",
+    "is_inter_cluster",
+    "before_oct_2013"
+  ],
+  "categorical_features": [
+    "start_hour",
+    "day_of_week",
+    "month",
+    "start_cluster",
+    "end_cluster",
+    "weather_events",
+    "rider_locality"
+  ],
+  "training_rows": 1200,
+  "cv_rows": 805,
+  "stack_validation_rows": 202,
+  "calibration_rows": 193,
+  "input_hashes": {
+    "train/part-00000.parquet": "b0ed7ca78a57d336f4e0c9a35f7ffaeb85ca375a6f98cb98e6d7848bef6e133b",
+    "test/part-00000.parquet": "057becb3f60a2ab3342e99b61e2d90aba7980bcab0983b8d1fd72ade4cddc50f"
+  },
+  "roles_sha256": "32996e612303179f921d4ca868d0c93291003c2780de75fab4b4229f4a4e9469",
+  "grids": {
+    "P1": [
+      {
+        "maxDepth": 2,
+        "maxIter": 3,
+        "stepSize": 0.03,
+        "minInstancesPerNode": 2
+      },
+      {
+        "maxDepth": 2,
+        "maxIter": 5,
+        "stepSize": 0.05,
+        "minInstancesPerNode": 2
+      },
+      {
+        "maxDepth": 3,
+        "maxIter": 7,
+        "stepSize": 0.05,
+        "minInstancesPerNode": 2
+      }
+    ],
+    "P6": [
+      {
+        "interactions": 0,
+        "max_rounds": 15,
+        "learning_rate": 0.03,
+        "max_bins": 32,
+        "min_samples_leaf": 4
+      },
+      {
+        "interactions": 1,
+        "max_rounds": 20,
+        "learning_rate": 0.03,
+        "max_bins": 32,
+        "min_samples_leaf": 4
+      },
+      {
+        "interactions": 2,
+        "max_rounds": 25,
+        "learning_rate": 0.02,
+        "max_bins": 32,
+        "min_samples_leaf": 4
+      }
+    ],
+    "P7": [
+      {
+        "iterations": 15,
+        "depth": 2,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3.0,
+        "bootstrap_type": "MVS",
+        "subsample": 0.8
+      },
+      {
+        "iterations": 20,
+        "depth": 2,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 3.0,
+        "bootstrap_type": "No"
+      },
+      {
+        "iterations": 25,
+        "depth": 3,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 5.0,
+        "bootstrap_type": "No"
+      }
+    ],
+    "P8": [
+      {
+        "n_estimators": 15,
+        "num_leaves": 7,
+        "learning_rate": 0.05,
+        "min_child_samples": 4,
+        "reg_lambda": 1.0,
+        "max_bin": 127
+      },
+      {
+        "n_estimators": 20,
+        "num_leaves": 11,
+        "learning_rate": 0.03,
+        "min_child_samples": 4,
+        "reg_lambda": 5.0,
+        "max_bin": 255
+      },
+      {
+        "n_estimators": 25,
+        "num_leaves": 15,
+        "learning_rate": 0.03,
+        "min_child_samples": 4,
+        "reg_lambda": 5.0,
+        "max_bin": 255
+      }
+    ],
+    "P9": [
+      {
+        "n_estimators": 15,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "min_child_weight": 1,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 20,
+        "max_depth": 2,
+        "learning_rate": 0.03,
+        "min_child_weight": 5,
+        "reg_lambda": 5.0
+      },
+      {
+        "n_estimators": 25,
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "min_child_weight": 10,
+        "reg_lambda": 5.0
+      }
+    ]
+  },
+  "meta_cs": [
+    0.001,
+    0.1,
+    10.0
+  ],
+  "source_calibration_roles_sha256": "9e17c1a1ab35b6417a3c217f01176106ef333020a79ed8b26b78486e25d743f5",
+  "feature_settings_sha256": "c5eee2abf83ed4f9421f881487a9594e4c7085169247e669964342169d8f0339",
+  "seeds": [
+    42
+  ],
+  "base_models": [
+    "P1",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+  ],
+  "stack_bases": [
+    "P1",
+    "P6",
+    "P7"
+  ],
+  "source_sha256": {
+    "train_matched_models.py": "5ae5aee5190da384dd7fa64a4c667755b3d7f3e949d2c0960b652b35b882ac19",
+    "TrainMatchedGBT.scala": "5b8d370a12a6f99398b1f28fe0acabe76ceb1fdb8a40111648c70165b3a1ae0e",
+    "run_python_models.py": "071a607ce3cbe94d4d54c4c19e0f0b97593394cb4effacaaa2df38f8e03edef6"
+  },
+  "dependencies": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pyarrow": "19.0.1",
+    "scikit-learn": "1.6.1",
+    "interpret-core": "0.7.5",
+    "catboost": "1.2.8",
+    "lightgbm": "4.6.0",
+    "xgboost": "3.1.2",
+    "joblib": "1.4.2"
+  },
+  "threads": 2,
+  "spark_master": "local[2]",
+  "spark_heap": "4g",
+  "ebm_jobs": 1,
+  "selection_policy": "Each base: 3 fixed configurations x3 CV folds on B; stack C on disjoint H; cutoff calibration only on C",
+  "stacking_policy": "OOF_B plus base-B predictions for H; combiner selection on H; refit combiner on S, calibrate on C, then refit combiner on all training rows with out-of-fit features",
+  "seed_policy": "Fixed seed42 calibration split for every model/seed. Seeds42/43/44 vary estimator initialization only; shared seed42 OOF_B/H construction transferred unchanged.",
+  "final_fit_policy": "Each base and final stack combiner fit all original training rows; no external training downsampling",
+  "test_use": "Previously examined benchmark. No test features opened until FROZEN_SETTINGS.json exists; no test-based parameter/cutoff/ensemble selection"
+}
