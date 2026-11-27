@@ -12,3 +12,6 @@ validation/paper_flags_full_20261108/frozen_paper_input_settings.json -text whit
 validation/paper_flags_full_20261108/feature_preparation_audit.json -text whitespace=cr-at-eol
 validation/paper_input_sample_controls_20261108/frozen_selected_settings.json -text whitespace=cr-at-eol
 validation/paper_input_sample_controls_20261108/cohort_preparation_audit.json -text whitespace=cr-at-eol
+# Frozen protocol hashes cover their original bytes on every platform.
+experiments/records/technical/matched-tuning/**/protocol.json -text whitespace=cr-at-eol
+experiments/records/project/matched-tuning/**/protocol.json -text whitespace=cr-at-eol
